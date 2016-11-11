@@ -1,0 +1,20 @@
+------------------------------------------------------
+----------/home/pacman/zf/spmv/1matrix_small/cop20k_A.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 121192, 121192 ) nnz = 2624331
+
+cpu sequential time = 4.782 ms. Bandwidth = 6.78826 GB/s. GFlops = 1.09759 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+OpenCL Runtime: 0.001824s
+nRows= 121192 nItems= 2624331 GFlops= 2.877650 timeins: 0.001824 timeinms: 1.823940
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------

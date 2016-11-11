@@ -1,0 +1,8 @@
+------------------------------------------------------
+----------/home/pacman/zf/spmv/1matrix_small/webbase-1M.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 1000005, 1000005 ) nnz = 3105536
+
+cpu sequential time = 9.03489 ms. Bandwidth = 5.01019 GB/s. GFlops = 0.687454 GFlops.
+

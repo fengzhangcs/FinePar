@@ -1,0 +1,71 @@
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s):0.229001
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s):0.114068
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s):0.0934169
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s):0.0930152
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s):0.225166
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s):0.0943129
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s):0.0967761
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s):0.240197
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s):0.103171
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s):0.105736
+--cambine:passed:-)
+

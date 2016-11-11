@@ -1,0 +1,13 @@
+
+MatInfo: Width 2000 Height 2000 NNZ 4000000
+Max Offset 1999 Min Offset -1999
+Histogram: <-15: 1969120 -15~-1 29880 < 0-15 31880 > 16 1969120
+Cacheline usage per row: max 125 min 125 avg 125.000000
+Program File Name: /home/pacman/zf/wubo/apu_corun/zfcsr/spmv_csr_vector.cl
+---
+>>> Build Log:
+ ý^
+<<< End of Build Log
+sizeofulong=8 bytesError: clCreateBuffer returned -61
+
+Row Num 2000 padded size 2000

@@ -1,0 +1,19 @@
+
+MatInfo: Width 1382908 Height 1382908 NNZ 16917053
+Max Offset 1353282 Min Offset -1352413
+Histogram: <-15: 5937222 -15~-1 2150681 < 0-15 2463115 > 16 6366035
+Cacheline usage per row: max 590 min 0 avg 2.826027
+Program File Name: /home/pacman/zf/wubo/apu_corun/test/zfcsr/spmv_csr_vector.cl
+---
+>>> Build Log:
+Ð6µ
+<<< End of Build Log
+sizeofulong=8 bytes[0,1]: 411648 (29.766754 %)
+(1,2]: 85436 (6.177978 %)
+(2,4]: 165317 (11.954268 %)
+(4,8]: 250976 (18.148371 %)
+(8,16]: 213391 (15.430554 %)
+(16,32]: 176007 (12.727274 %)
+(32,64]: 53630 (3.878049 %)
+(64,128]: 12633 (0.913507 %)
+(128,MAX]: 13874 (1.003245 %)

@@ -1,0 +1,237 @@
+
+cpuoffset=0
+------------------------------------------------------
+----------/home/pacman/zf/spmv/2matrix_mediumsize/Si41Ge41H72.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 185639, 185639 ) nnz = 15011265
+
+cpu sequential time = 24.0586 ms. Bandwidth = 7.54908 GB/s. GFlops = 1.24789 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+
+cpuoffset=10
+------------------------------------------------------
+----------/home/pacman/zf/spmv/2matrix_mediumsize/Si41Ge41H72.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 185639, 185639 ) nnz = 15011265
+
+cpu sequential time = 24.1022 ms. Bandwidth = 7.53541 GB/s. GFlops = 1.24563 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+OpenCL Runtime: 0.020737s
+nRows= 185639 nItems= 15011265 GFlops= 1.447776 timeins: 0.020737 timeinms: 20.737000
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=20
+------------------------------------------------------
+----------/home/pacman/zf/spmv/2matrix_mediumsize/Si41Ge41H72.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 185639, 185639 ) nnz = 15011265
+
+cpu sequential time = 23.9973 ms. Bandwidth = 7.56836 GB/s. GFlops = 1.25108 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+OpenCL Runtime: 0.019131s
+nRows= 185639 nItems= 15011265 GFlops= 1.569298 timeins: 0.019131 timeinms: 19.131179
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=30
+------------------------------------------------------
+----------/home/pacman/zf/spmv/2matrix_mediumsize/Si41Ge41H72.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 185639, 185639 ) nnz = 15011265
+
+cpu sequential time = 24.0859 ms. Bandwidth = 7.54053 GB/s. GFlops = 1.24648 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+OpenCL Runtime: 0.017719s
+nRows= 185639 nItems= 15011265 GFlops= 1.694354 timeins: 0.017719 timeinms: 17.719162
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=40
+------------------------------------------------------
+----------/home/pacman/zf/spmv/2matrix_mediumsize/Si41Ge41H72.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 185639, 185639 ) nnz = 15011265
+
+cpu sequential time = 24.0335 ms. Bandwidth = 7.55697 GB/s. GFlops = 1.2492 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+OpenCL Runtime: 0.016359s
+nRows= 185639 nItems= 15011265 GFlops= 1.835274 timeins: 0.016359 timeinms: 16.358612
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=50
+------------------------------------------------------
+----------/home/pacman/zf/spmv/2matrix_mediumsize/Si41Ge41H72.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 185639, 185639 ) nnz = 15011265
+
+cpu sequential time = 24.0279 ms. Bandwidth = 7.55873 GB/s. GFlops = 1.24949 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+OpenCL Runtime: 0.014935s
+nRows= 185639 nItems= 15011265 GFlops= 2.010155 timeins: 0.014935 timeinms: 14.935431
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=60
+------------------------------------------------------
+----------/home/pacman/zf/spmv/2matrix_mediumsize/Si41Ge41H72.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 185639, 185639 ) nnz = 15011265
+
+cpu sequential time = 24.0468 ms. Bandwidth = 7.5528 GB/s. GFlops = 1.24851 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+OpenCL Runtime: 0.013767s
+nRows= 185639 nItems= 15011265 GFlops= 2.180688 timeins: 0.013767 timeinms: 13.767459
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=70
+------------------------------------------------------
+----------/home/pacman/zf/spmv/2matrix_mediumsize/Si41Ge41H72.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 185639, 185639 ) nnz = 15011265
+
+cpu sequential time = 23.942 ms. Bandwidth = 7.58586 GB/s. GFlops = 1.25397 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+OpenCL Runtime: 0.014712s
+nRows= 185639 nItems= 15011265 GFlops= 2.040635 timeins: 0.014712 timeinms: 14.712348
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=80
+------------------------------------------------------
+----------/home/pacman/zf/spmv/2matrix_mediumsize/Si41Ge41H72.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 185639, 185639 ) nnz = 15011265
+
+cpu sequential time = 23.9569 ms. Bandwidth = 7.58113 GB/s. GFlops = 1.25319 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+OpenCL Runtime: 0.015211s
+nRows= 185639 nItems= 15011265 GFlops= 1.973754 timeins: 0.015211 timeinms: 15.210879
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=90
+------------------------------------------------------
+----------/home/pacman/zf/spmv/2matrix_mediumsize/Si41Ge41H72.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 185639, 185639 ) nnz = 15011265
+
+cpu sequential time = 23.9185 ms. Bandwidth = 7.59331 GB/s. GFlops = 1.2552 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+OpenCL Runtime: 0.015545s
+nRows= 185639 nItems= 15011265 GFlops= 1.931329 timeins: 0.015545 timeinms: 15.545008
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=100
+------------------------------------------------------
+----------/home/pacman/zf/spmv/2matrix_mediumsize/Si41Ge41H72.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 185639, 185639 ) nnz = 15011265
+
+cpu sequential time = 24.0335 ms. Bandwidth = 7.55697 GB/s. GFlops = 1.2492 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+OpenCL Runtime: 0.015304s
+nRows= 185639 nItems= 15011265 GFlops= 1.961757 timeins: 0.015304 timeinms: 15.303898
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------

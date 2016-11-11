@@ -1,0 +1,28 @@
+
+MatInfo: Width 83334 Height 83334 NNZ 6010480
+Max Offset 44024 Min Offset -44024
+Histogram: <-15: 2666602 -15~-1 296971 < 0-15 380305 > 16 2666602
+Cacheline usage per row: max 29 min 1 avg 12.927353
+Program File Name: /home/pacman/zf/spmv/zfcsr/spmv_csr_vector.cl
+---
+Error: clBuildProgram() returned -11.
+>>> Build Log:
+"/tmp/OCL7811T5.cl", line 1: catastrophic error: cannot open source file
+          "constant.h"
+  #include "constant.h"
+                       ^
+
+1 catastrophic error detected in the compilation of "/tmp/OCL7811T5.cl".
+Compilation terminated.
+Frontend phase failed compilation.
+
+<<< End of Build Log
+[0,1]: 3657 (4.388260 %)
+(1,2]: 0 (0.000000 %)
+(2,4]: 0 (0.000000 %)
+(4,8]: 0 (0.000000 %)
+(8,16]: 5 (0.006000 %)
+(16,32]: 436 (0.523183 %)
+(32,64]: 10490 (12.587597 %)
+(64,128]: 68748 (82.494965 %)
+(128,MAX]: 0 (0.000000 %)

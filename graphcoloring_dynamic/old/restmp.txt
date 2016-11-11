@@ -1,0 +1,466 @@
+g++  -O3 -g  -w  -c spmv_csr.cpp  -I/opt/AMDAPP/include -L/opt/AMDAPP/lib/x86_64 -lOpenCL -lm 
+g++  -O3  -g  -w  -c spmv_util.cpp  -I/opt/AMDAPP/include -L/opt/AMDAPP/lib/x86_64 -lOpenCL -lm 
+g++ -O3  -g -w  spmv_util.o spmv_csr.o -I/opt/AMDAPP/include -L/opt/AMDAPP/lib/x86_64 -lOpenCL -lm -o spmv
+rm -f *.o
+cpuoffset=0
+
+MatInfo: Width 5558326 Height 5558326 NNZ 59524291
+Max Offset 5556249 Min Offset -5556249
+Histogram: <-15: 26964310 -15~-1 19608 < 0-15 5576055 > 16 26964318
+Cacheline usage per row: max 80805 min 1 avg 5.324180
+cpu start initialization
+cpu start computing
+number=5   distance=41006.417969
+Program File Name: /home/pacman/zf/wubo/apu_corun/pagerank_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+à‚
+<<< End of Build Log
+sizeofulong=8 bytes
+Row Num 5558326 padded size 5558328
+rowsetzf=0
+distance=40962.515625
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 333242 coo res 15234.753906 res 17951.556641 
+
+Correctness Check: Distance 3.771586e+03 max diff 2.716803e+03 max diff ratio 4.838592e-01 vec size 5558326
+
+CSR vector SLM row ptr groupnum:24 cpu time 628.260005 ms GFLOPS 0.947447 code 7 
+
+******* Min time 0.628260 groupnum 24 **********
+NNZ Before 59524291 After 121314928
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 628.260005 ms best method 7 gflops 0.947447
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+cpuoffset=10
+
+MatInfo: Width 5558326 Height 5558326 NNZ 59524291
+Max Offset 5556249 Min Offset -5556249
+Histogram: <-15: 26964310 -15~-1 19608 < 0-15 5576055 > 16 26964318
+Cacheline usage per row: max 80805 min 1 avg 5.324180
+cpu start initialization
+cpu start computing
+number=5   distance=41006.417969
+Program File Name: /home/pacman/zf/wubo/apu_corun/pagerank_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+°\J
+<<< End of Build Log
+sizeofulong=8 bytes
+Row Num 5558326 padded size 5558328
+rowsetzf=555832
+distance=41966.160156
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 333242 coo res 15234.753906 res 17969.046875 
+
+Correctness Check: Distance 4.293215e+03 max diff 2.734293e+03 max diff ratio 4.838592e-01 vec size 5558326
+
+CSR vector SLM row ptr groupnum:24 cpu time 638.505745 ms GFLOPS 0.932244 code 7 
+
+******* Min time 0.638506 groupnum 24 **********
+NNZ Before 59524291 After 121314928
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 638.505745 ms best method 7 gflops 0.932244
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+cpuoffset=20
+
+MatInfo: Width 5558326 Height 5558326 NNZ 59524291
+Max Offset 5556249 Min Offset -5556249
+Histogram: <-15: 26964310 -15~-1 19608 < 0-15 5576055 > 16 26964318
+Cacheline usage per row: max 80805 min 1 avg 5.324180
+cpu start initialization
+cpu start computing
+number=5   distance=41006.417969
+Program File Name: /home/pacman/zf/wubo/apu_corun/pagerank_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+ÀÝ€
+<<< End of Build Log
+sizeofulong=8 bytes
+Row Num 5558326 padded size 5558328
+rowsetzf=1111665
+distance=41966.160156
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 333242 coo res 15234.753906 res 17969.046875 
+
+Correctness Check: Distance 4.293215e+03 max diff 2.734293e+03 max diff ratio 4.838592e-01 vec size 5558326
+
+CSR vector SLM row ptr groupnum:24 cpu time 850.975549 ms GFLOPS 0.699483 code 7 
+
+******* Min time 0.850976 groupnum 24 **********
+NNZ Before 59524291 After 121314928
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 850.975549 ms best method 7 gflops 0.699483
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+cpuoffset=30
+
+MatInfo: Width 5558326 Height 5558326 NNZ 59524291
+Max Offset 5556249 Min Offset -5556249
+Histogram: <-15: 26964310 -15~-1 19608 < 0-15 5576055 > 16 26964318
+Cacheline usage per row: max 80805 min 1 avg 5.324180
+cpu start initialization
+cpu start computing
+number=5   distance=41006.417969
+Program File Name: /home/pacman/zf/wubo/apu_corun/pagerank_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+Èw?u
+<<< End of Build Log
+sizeofulong=8 bytes
+Row Num 5558326 padded size 5558328
+rowsetzf=1667497
+distance=41966.160156
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 333242 coo res 15234.753906 res 17969.046875 
+
+Correctness Check: Distance 4.293215e+03 max diff 2.734293e+03 max diff ratio 4.838592e-01 vec size 5558326
+
+CSR vector SLM row ptr groupnum:24 cpu time 1065.804696 ms GFLOPS 0.558492 code 7 
+
+******* Min time 1.065805 groupnum 24 **********
+NNZ Before 59524291 After 121314928
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 1065.804696 ms best method 7 gflops 0.558492
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+cpuoffset=40
+
+MatInfo: Width 5558326 Height 5558326 NNZ 59524291
+Max Offset 5556249 Min Offset -5556249
+Histogram: <-15: 26964310 -15~-1 19608 < 0-15 5576055 > 16 26964318
+Cacheline usage per row: max 80805 min 1 avg 5.324180
+cpu start initialization
+cpu start computing
+number=5   distance=41006.417969
+Program File Name: /home/pacman/zf/wubo/apu_corun/pagerank_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+ÀÄ¯
+<<< End of Build Log
+sizeofulong=8 bytes
+Row Num 5558326 padded size 5558328
+rowsetzf=2223330
+distance=41966.160156
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 333242 coo res 15234.753906 res 17969.046875 
+
+Correctness Check: Distance 4.293215e+03 max diff 2.734293e+03 max diff ratio 4.838592e-01 vec size 5558326
+
+CSR vector SLM row ptr groupnum:24 cpu time 1276.260948 ms GFLOPS 0.466396 code 7 
+
+******* Min time 1.276261 groupnum 24 **********
+NNZ Before 59524291 After 121314928
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 1276.260948 ms best method 7 gflops 0.466396
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+cpuoffset=50
+
+MatInfo: Width 5558326 Height 5558326 NNZ 59524291
+Max Offset 5556249 Min Offset -5556249
+Histogram: <-15: 26964310 -15~-1 19608 < 0-15 5576055 > 16 26964318
+Cacheline usage per row: max 80805 min 1 avg 5.324180
+cpu start initialization
+cpu start computing
+number=5   distance=41006.417969
+Program File Name: /home/pacman/zf/wubo/apu_corun/pagerank_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+ /R
+<<< End of Build Log
+sizeofulong=8 bytes
+Row Num 5558326 padded size 5558328
+rowsetzf=2779163
+distance=41966.160156
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 333242 coo res 15234.753906 res 17969.046875 
+
+Correctness Check: Distance 4.293215e+03 max diff 2.734293e+03 max diff ratio 4.838592e-01 vec size 5558326
+
+CSR vector SLM row ptr groupnum:24 cpu time 1486.818397 ms GFLOPS 0.400347 code 7 
+
+******* Min time 1.486818 groupnum 24 **********
+NNZ Before 59524291 After 121314928
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 1486.818397 ms best method 7 gflops 0.400347
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+cpuoffset=60
+
+MatInfo: Width 5558326 Height 5558326 NNZ 59524291
+Max Offset 5556249 Min Offset -5556249
+Histogram: <-15: 26964310 -15~-1 19608 < 0-15 5576055 > 16 26964318
+Cacheline usage per row: max 80805 min 1 avg 5.324180
+cpu start initialization
+cpu start computing
+number=5   distance=41006.417969
+Program File Name: /home/pacman/zf/wubo/apu_corun/pagerank_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+ /ð
+<<< End of Build Log
+sizeofulong=8 bytes
+Row Num 5558326 padded size 5558328
+rowsetzf=3334995
+distance=41966.160156
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 333242 coo res 15234.753906 res 17969.046875 
+
+Correctness Check: Distance 4.293215e+03 max diff 2.734293e+03 max diff ratio 4.838592e-01 vec size 5558326
+
+CSR vector SLM row ptr groupnum:24 cpu time 1703.372991 ms GFLOPS 0.349450 code 7 
+
+******* Min time 1.703373 groupnum 24 **********
+NNZ Before 59524291 After 121314928
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 1703.372991 ms best method 7 gflops 0.349450
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+cpuoffset=70
+
+MatInfo: Width 5558326 Height 5558326 NNZ 59524291
+Max Offset 5556249 Min Offset -5556249
+Histogram: <-15: 26964310 -15~-1 19608 < 0-15 5576055 > 16 26964318
+Cacheline usage per row: max 80805 min 1 avg 5.324180
+cpu start initialization
+cpu start computing
+number=5   distance=41006.417969
+Program File Name: /home/pacman/zf/wubo/apu_corun/pagerank_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+P9
+<<< End of Build Log
+sizeofulong=8 bytes
+Row Num 5558326 padded size 5558328
+rowsetzf=3890828
+distance=41966.160156
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 333242 coo res 15234.753906 res 17969.046875 
+
+Correctness Check: Distance 4.293215e+03 max diff 2.734293e+03 max diff ratio 4.838592e-01 vec size 5558326
+
+CSR vector SLM row ptr groupnum:24 cpu time 1922.948444 ms GFLOPS 0.309547 code 7 
+
+******* Min time 1.922948 groupnum 24 **********
+NNZ Before 59524291 After 121314928
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 1922.948444 ms best method 7 gflops 0.309547
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+cpuoffset=80
+
+MatInfo: Width 5558326 Height 5558326 NNZ 59524291
+Max Offset 5556249 Min Offset -5556249
+Histogram: <-15: 26964310 -15~-1 19608 < 0-15 5576055 > 16 26964318
+Cacheline usage per row: max 80805 min 1 avg 5.324180
+cpu start initialization
+cpu start computing
+number=5   distance=41006.417969
+Program File Name: /home/pacman/zf/wubo/apu_corun/pagerank_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+Ð8~
+<<< End of Build Log
+sizeofulong=8 bytes
+Row Num 5558326 padded size 5558328
+rowsetzf=4446660
+distance=41966.160156
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 333242 coo res 15234.753906 res 17969.046875 
+
+Correctness Check: Distance 4.293215e+03 max diff 2.734293e+03 max diff ratio 4.838592e-01 vec size 5558326
+
+CSR vector SLM row ptr groupnum:24 cpu time 2142.507696 ms GFLOPS 0.277825 code 7 
+
+******* Min time 2.142508 groupnum 24 **********
+NNZ Before 59524291 After 121314928
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 2142.507696 ms best method 7 gflops 0.277825
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+cpuoffset=90
+
+MatInfo: Width 5558326 Height 5558326 NNZ 59524291
+Max Offset 5556249 Min Offset -5556249
+Histogram: <-15: 26964310 -15~-1 19608 < 0-15 5576055 > 16 26964318
+Cacheline usage per row: max 80805 min 1 avg 5.324180
+cpu start initialization
+cpu start computing
+number=5   distance=41006.417969
+Program File Name: /home/pacman/zf/wubo/apu_corun/pagerank_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+`:c
+<<< End of Build Log
+sizeofulong=8 bytes
+Row Num 5558326 padded size 5558328
+rowsetzf=5002493
+distance=41966.160156
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 333242 coo res 15234.753906 res 17969.046875 
+
+Correctness Check: Distance 4.293215e+03 max diff 2.734293e+03 max diff ratio 4.838592e-01 vec size 5558326
+
+CSR vector SLM row ptr groupnum:24 cpu time 2362.552798 ms GFLOPS 0.251949 code 7 
+
+******* Min time 2.362553 groupnum 24 **********
+NNZ Before 59524291 After 121314928
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 2362.552798 ms best method 7 gflops 0.251949
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+cpuoffset=100
+
+MatInfo: Width 5558326 Height 5558326 NNZ 59524291
+Max Offset 5556249 Min Offset -5556249
+Histogram: <-15: 26964310 -15~-1 19608 < 0-15 5576055 > 16 26964318
+Cacheline usage per row: max 80805 min 1 avg 5.324180
+cpu start initialization
+cpu start computing
+number=5   distance=41006.417969
+Program File Name: /home/pacman/zf/wubo/apu_corun/pagerank_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+@¯N
+<<< End of Build Log
+sizeofulong=8 bytes
+Row Num 5558326 padded size 5558328
+rowsetzf=5558326
+distance=42006.417969
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 330877 coo res 119752.187500 res 120624.921875 
+
+Correctness Check: Distance 2.007868e+03 max diff 8.727344e+02 max diff ratio 7.235108e-03 vec size 5558326
+
+CSR vector SLM row ptr groupnum:24 cpu time 2584.696400 ms GFLOPS 0.230295 code 7 
+
+******* Min time 2.584696 groupnum 24 **********
+NNZ Before 59524291 After 121314928
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 2584.696400 ms best method 7 gflops 0.230295
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------

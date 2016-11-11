@@ -1,0 +1,72 @@
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+sizeofulong=8 bytes
+kernel time(s):0.23334
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+sizeofulong=8 bytes
+kernel time(s):0.231171
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+sizeofulong=8 bytes
+kernel time(s):0.242754
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+sizeofulong=8 bytes
+kernel time(s):0.260138
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+sizeofulong=8 bytes
+kernel time(s):0.264623
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+sizeofulong=8 bytes
+kernel time(s):0.267647
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+sizeofulong=8 bytes
+kernel time(s):0.268946
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+sizeofulong=8 bytes
+kernel time(s):0.268663
+--cambine:passed:-)
+Reading File
+maxedgeno is 18
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+sizeofulong=8 bytes
+kernel time(s):0.264536
+--cambine:passed:-)

@@ -1,0 +1,156 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BHSPARSE_SUCCESS	common.h	20;"	d
+BHSPARSE_UNSUPPORTED_DEVICE	common.h	21;"	d
+BLOCK_SIZE	main.cpp	/^static const int BLOCK_SIZE = 64;$/;"	v	file:
+BLOCK_SIZE	spmv.cpp	/^static const int BLOCK_SIZE = 64;$/;"	v	file:
+CC	Makefile	/^CC=g++$/;"	m
+CL_CHECK_ERROR	main.cpp	47;"	d	file:
+CL_CHECK_ERROR	spmv.cpp	32;"	d	file:
+COMMON_H	common.h	2;"	d
+DATA_TYPE	main.cpp	/^typedef float DATA_TYPE;$/;"	t	file:
+DATA_TYPE	spmv.cpp	/^typedef float DATA_TYPE;$/;"	t	file:
+INCLUDES	Makefile	/^INCLUDES = -I\/opt\/AMDAPPSDK-3.0-0-Beta\/include$/;"	m
+LIBS	Makefile	/^LIBS = $(OPENCL_LIBS)$/;"	m
+MAX_RELATIVE_ERROR	main.cpp	/^static const double MAX_RELATIVE_ERROR = .02;$/;"	v	file:
+MAX_RELATIVE_ERROR	spmv.cpp	/^static const double MAX_RELATIVE_ERROR = .02;$/;"	v	file:
+MAX_SOURCE_SIZE	main.cpp	46;"	d	file:
+MAX_SOURCE_SIZE	spmv.cpp	31;"	d	file:
+MM_ARRAY_STR	mmio.h	105;"	d
+MM_COMPLEX_STR	mmio.h	109;"	d
+MM_COORDINATE_STR	mmio.h	107;"	d
+MM_COULD_NOT_READ_FILE	mmio.h	84;"	d
+MM_COULD_NOT_WRITE_FILE	mmio.h	90;"	d
+MM_DENSE_STR	mmio.h	106;"	d
+MM_GENERAL_STR	mmio.h	112;"	d
+MM_HERM_STR	mmio.h	114;"	d
+MM_INT_STR	mmio.h	111;"	d
+MM_IO_H	mmio.h	15;"	d
+MM_LINE_TOO_LONG	mmio.h	89;"	d
+MM_MAX_LINE_LENGTH	mmio.h	17;"	d
+MM_MAX_TOKEN_LENGTH	mmio.h	19;"	d
+MM_MTX_STR	mmio.h	104;"	d
+MM_NOT_MTX	mmio.h	86;"	d
+MM_NO_HEADER	mmio.h	87;"	d
+MM_PATTERN_STR	mmio.h	116;"	d
+MM_PREMATURE_EOF	mmio.h	85;"	d
+MM_REAL_STR	mmio.h	110;"	d
+MM_SKEW_STR	mmio.h	115;"	d
+MM_SPARSE_STR	mmio.h	108;"	d
+MM_SYMM_STR	mmio.h	113;"	d
+MM_UNSUPPORTED_TYPE	mmio.h	88;"	d
+MM_typecode	mmio.h	/^typedef char MM_typecode[4];$/;"	t
+MatrixMarketBanner	mmio.h	18;"	d
+NUM_RUN	common.h	35;"	d
+OPENCL_LIBS	Makefile	/^OPENCL_LIBS = -L\/opt\/AMDAPPSDK-3.0-0-Beta\/lib\/x86_64 -lOpenCL$/;"	m
+PAD_FACTOR	main.cpp	/^static const int PAD_FACTOR = 16;$/;"	v	file:
+PAD_FACTOR	spmv.cpp	/^static const int PAD_FACTOR = 16;$/;"	v	file:
+RunTest	spmv.cpp	/^void RunTest(int nRows){$/;"	f
+SEG_H	common.h	48;"	d
+SEG_H	common.h	51;"	d
+STEP	common.h	49;"	d
+STEP	common.h	52;"	d
+THREADBUNCH	common.h	44;"	d
+THREADGROUP	common.h	45;"	d
+USE_DOUBLE	Makefile	/^USE_DOUBLE = 0$/;"	m
+USE_DOUBLE	common.h	26;"	d
+USE_SVM_ALWAYS	Makefile	/^USE_SVM_ALWAYS = 1$/;"	m
+USE_SVM_ALWAYS	common.h	38;"	d
+bhsparse_timer	common.h	/^struct bhsparse_timer {$/;"	s
+call_bhsparse	main.cpp	/^int call_bhsparse(const char *datasetpath)$/;"	f
+clCommandQue	main.cpp	/^cl_command_queue clCommandQue[2];$/;"	v
+clCommandQue	spmv.cpp	/^cl_command_queue clCommandQue[2];$/;"	v
+clGPUContext	main.cpp	/^cl_context clGPUContext;$/;"	v
+clGPUContext	spmv.cpp	/^cl_context clGPUContext;$/;"	v
+clKernel	main.cpp	/^cl_kernel clKernel;$/;"	v
+clKernel	spmv.cpp	/^cl_kernel clKernel;$/;"	v
+clProgram	main.cpp	/^cl_program clProgram;$/;"	v
+clProgram	spmv.cpp	/^cl_program clProgram;$/;"	v
+cl_clean_up	main.cpp	/^void cl_clean_up()$/;"	f
+cl_clean_up	spmv.cpp	/^void cl_clean_up()$/;"	f
+cl_initialization_fusion	main.cpp	/^void cl_initialization_fusion()$/;"	f
+cl_initialization_fusion	spmv.cpp	/^void cl_initialization_fusion()$/;"	f
+cl_load_prog	main.cpp	/^void cl_load_prog()$/;"	f
+cl_load_prog	spmv.cpp	/^void cl_load_prog()$/;"	f
+convertToColMajor	main.cpp	/^void convertToColMajor(floatType *A, int *cols, int dim, int *rowDelimiters,$/;"	f
+convertToColMajor	spmv.cpp	/^void convertToColMajor(floatType *A, int *cols, int dim, int *rowDelimiters,$/;"	f
+device_id	main.cpp	/^cl_device_id device_id[2];   $/;"	v
+device_id	spmv.cpp	/^cl_device_id device_id[2];   $/;"	v
+errcode	main.cpp	/^cl_int errcode;$/;"	v
+errcode	spmv.cpp	/^cl_int errcode;$/;"	v
+fill	spmv.cpp	/^void fill(floatType *A, const int n, const float maxi)$/;"	f
+fp	main.cpp	/^FILE *fp;$/;"	v
+fp	spmv.cpp	/^FILE *fp;$/;"	v
+initRandomMatrix	spmv.cpp	/^void initRandomMatrix(int *cols, int *rowDelimiters, const int n, const int dim)$/;"	f
+main	main.cpp	/^int main(int argc, char ** argv)$/;"	f
+main	spmv.cpp	/^int main(int argc, char *argv[])$/;"	f
+mm_clear_typecode	mmio.h	75;"	d
+mm_initialize_typecode	mmio.h	78;"	d
+mm_is_array	mmio.h	41;"	d
+mm_is_complex	mmio.h	43;"	d
+mm_is_coordinate	mmio.h	39;"	d
+mm_is_dense	mmio.h	40;"	d
+mm_is_general	mmio.h	49;"	d
+mm_is_hermitian	mmio.h	51;"	d
+mm_is_integer	mmio.h	46;"	d
+mm_is_matrix	mmio.h	36;"	d
+mm_is_pattern	mmio.h	45;"	d
+mm_is_real	mmio.h	44;"	d
+mm_is_skew	mmio.h	50;"	d
+mm_is_sparse	mmio.h	38;"	d
+mm_is_symmetric	mmio.h	48;"	d
+mm_is_valid	mmio.h	/^int mm_is_valid(MM_typecode matcode)		\/* too complex for a macro *\/$/;"	f
+mm_read_banner	mmio.h	/^int mm_read_banner(FILE *f, MM_typecode *matcode)$/;"	f
+mm_read_mtx_array_size	mmio.h	/^int mm_read_mtx_array_size(FILE *f, int *M, int *N)$/;"	f
+mm_read_mtx_crd	mmio.h	/^int mm_read_mtx_crd(char *fname, int *M, int *N, int *nz, int **I, int **J,$/;"	f
+mm_read_mtx_crd_data	mmio.h	/^int mm_read_mtx_crd_data(FILE *f, int M, int N, int nz, int I[], int J[],$/;"	f
+mm_read_mtx_crd_entry	mmio.h	/^int mm_read_mtx_crd_entry(FILE *f, int *I, int *J, double *real, double *imag,$/;"	f
+mm_read_mtx_crd_size	mmio.h	/^int mm_read_mtx_crd_size(FILE *f, int *M, int *N, int *nz)$/;"	f
+mm_read_unsymmetric_sparse	mmio.h	/^int mm_read_unsymmetric_sparse(const char *fname, int *M_, int *N_, int *nz_,$/;"	f
+mm_set_array	mmio.h	60;"	d
+mm_set_complex	mmio.h	64;"	d
+mm_set_coordinate	mmio.h	59;"	d
+mm_set_dense	mmio.h	61;"	d
+mm_set_general	mmio.h	71;"	d
+mm_set_hermitian	mmio.h	73;"	d
+mm_set_integer	mmio.h	67;"	d
+mm_set_matrix	mmio.h	58;"	d
+mm_set_pattern	mmio.h	66;"	d
+mm_set_real	mmio.h	65;"	d
+mm_set_skew	mmio.h	72;"	d
+mm_set_sparse	mmio.h	62;"	d
+mm_set_symmetric	mmio.h	70;"	d
+mm_strdup	mmio.h	/^char *mm_strdup(const char *s)$/;"	f
+mm_typecode_to_str	mmio.h	/^char  *mm_typecode_to_str(MM_typecode matcode)$/;"	f
+mm_write_banner	mmio.h	/^int mm_write_banner(FILE *f, MM_typecode matcode)$/;"	f
+mm_write_mtx_array_size	mmio.h	/^int mm_write_mtx_array_size(FILE *f, int M, int N)$/;"	f
+mm_write_mtx_crd	mmio.h	/^int mm_write_mtx_crd(char fname[], int M, int N, int nz, int I[], int J[],$/;"	f
+mm_write_mtx_crd_size	mmio.h	/^int mm_write_mtx_crd_size(FILE *f, int M, int N, int nz)$/;"	f
+num_devices	main.cpp	/^cl_uint num_devices;$/;"	v
+num_devices	spmv.cpp	/^cl_uint num_devices;$/;"	v
+num_platforms	main.cpp	/^cl_uint num_platforms;$/;"	v
+num_platforms	spmv.cpp	/^cl_uint num_platforms;$/;"	v
+platform_id	main.cpp	/^cl_platform_id platform_id;$/;"	v
+platform_id	spmv.cpp	/^cl_platform_id platform_id;$/;"	v
+read_cl_file	main.cpp	/^void read_cl_file()$/;"	f
+read_cl_file	spmv.cpp	/^void read_cl_file()$/;"	f
+rtclock	main.cpp	/^double rtclock()$/;"	f
+rtclock	spmv.cpp	/^double rtclock()$/;"	f
+source_size	main.cpp	/^size_t source_size;$/;"	v
+source_size	spmv.cpp	/^size_t source_size;$/;"	v
+source_str	main.cpp	/^char *source_str;$/;"	v
+source_str	spmv.cpp	/^char *source_str;$/;"	v
+spmvCpu	spmv.cpp	/^void spmvCpu(const floatType *val, const int *cols, const int *rowDelimiters,$/;"	f
+start	common.h	/^    void start() {$/;"	f	struct:bhsparse_timer
+stop	common.h	/^    double stop() {$/;"	f	struct:bhsparse_timer
+str_temp	main.cpp	/^char str_temp[1024];$/;"	v
+str_temp	spmv.cpp	/^char str_temp[1024];$/;"	v
+t1	common.h	/^    timeval t1, t2;$/;"	m	struct:bhsparse_timer
+t2	common.h	/^    timeval t1, t2;$/;"	m	struct:bhsparse_timer
+tzone	common.h	/^    struct timezone tzone;$/;"	m	struct:bhsparse_timer	typeref:struct:bhsparse_timer::timezone
+value_type	common.h	/^typedef double   value_type;$/;"	t
+verifyResults	spmv.cpp	/^bool verifyResults(const floatType *cpuResults, const floatType *gpuResults,$/;"	f
