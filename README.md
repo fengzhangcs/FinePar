@@ -24,12 +24,12 @@ If you use our work, please cite our paper:
 Feng Zhang, Bo Wu, Jidong Zhai, Bingsheng He, Wenguang Chen.FinePar: Irregularity-Aware Fine-Grained Workload Partitioning on Integrated Architectures
 [CGO2017 URL](http://cgo.org/cgo2017/)
 
-  @inproceedings{zhangFinePar,
-   title={{FinePar: Irregularity-Aware Fine-Grained Workload Partitioning on Integrated Architectures}},
-   author={Zhang, Feng and Wu, Bo and Zhai, Jidong and He, Bingsheng and Chen, Wenguang},
-   booktitle={Proceedings of the 2017 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)},
-   year={2017}
-  }
+      @inproceedings{zhangFinePar,
+       title={{FinePar: Irregularity-Aware Fine-Grained Workload Partitioning on Integrated Architectures}},
+       author={Zhang, Feng and Wu, Bo and Zhai, Jidong and He, Bingsheng and Chen, Wenguang},
+       booktitle={Proceedings of the 2017 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)},
+       year={2017}
+      }
 
 
 ##Acknowledgement##
