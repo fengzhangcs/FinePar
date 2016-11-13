@@ -45,5 +45,5 @@ Bingsheng He is with the School of Computing, National University of Singapore, 
 If you have problems, please contact:
 * zhangfeng.thu.hpc@gmail.com
 
-Thanks for your interests in FinePar and hope you like it.inePar: Irregularity-Aware Fine-Grained Workload Partitioning on Integrated Architectures
+Thanks for your interests in FinePar and hope you like it. FinePar: Irregularity-Aware Fine-Grained Workload Partitioning on Integrated Architectures
 
