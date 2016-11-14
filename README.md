@@ -36,7 +36,7 @@ Feng Zhang, Bo Wu, Jidong Zhai, Bingsheng He, Wenguang Chen.FinePar: Irregularit
 
 Feng Zhang, Jidong Zhai and Wenguang Chen are with the Department of Computer Science and Technology, Tsinghua University, Beijing, 100084, China.
 
-Bo Wu is with EECS, Colorado School of Mines, 1610 Illinois Street, Golden, CO 80401, USA.
+Bo Wu is with Computer Science Division, Colorado School of Mines, 1610 Illinois Street, Golden, CO 80401, USA.
 
 Bingsheng He is with the School of Computing, National University of Singapore, 119077, Singapore.
 
