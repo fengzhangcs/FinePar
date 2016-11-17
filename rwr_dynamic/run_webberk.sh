@@ -1,6 +1,7 @@
 make clean;make
 
-sleep 3
-./spmv ~/zf/spmv/4download/webberk/web.txt 
 
+sleep 3
+
+./spmv ../input/webberk/web.mtx
 

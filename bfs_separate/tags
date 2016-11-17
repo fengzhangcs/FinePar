@@ -1,0 +1,132 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOCATE_GPU_READ	old/spmv_util.cpp	412;"	d	file:
+ALLOCATE_GPU_READ	old/spmv_util.h	80;"	d
+CC	Makefile	/^CC = g++ -DPROFILING$/;"	m
+CC_FLAGS	Makefile	/^CC_FLAGS = -g -O3$/;"	m
+CHECKERROR	old/spmv_util.cpp	418;"	d	file:
+CHECKERROR	old/spmv_util.h	86;"	d
+CPU_speed_in_MHz	timer.cc	/^double timer::CPU_speed_in_MHz = timer::get_CPU_speed_in_MHz();$/;"	m	class:timer	file:
+CPU_speed_in_MHz	timer.h	/^	static double	   CPU_speed_in_MHz, get_CPU_speed_in_MHz();$/;"	m	class:timer
+CSR_VEC_GROUP_SIZE	old/spmv_util.h	18;"	d
+CSR_VEC_MIN_TH_NUM	old/spmv_util.h	24;"	d
+EXE	Makefile	/^EXE = bfs$/;"	m
+FileToString	CLHelper.h	/^string FileToString(const string fileName)$/;"	f
+LoadSourceFromFile	old/spmv_util.cpp	/^bool LoadSourceFromFile($/;"	f
+MAX_LEVELS	old/spmv_util.h	25;"	d
+MAX_RELATIVE_ERROR	util.h	33;"	d
+MAX_THREADS_PER_BLOCK	bfs.cpp	16;"	d	file:
+Node	bfs.cpp	/^struct Node$/;"	s	file:
+ReadMMF	old/spmv_util.cpp	/^void ReadMMF(char* filename, coo_matrix<int, float>* mat)$/;"	f
+SRC	Makefile	/^SRC = bfs.cpp timer.cc$/;"	m
+Usage	bfs.cpp	/^void Usage(int argc, char**argv){$/;"	f
+VEC2DWIDTH	old/spmv_util.h	17;"	d
+WARPSIZE	old/spmv_util.h	20;"	d
+WORK_DIM	CLHelper.h	22;"	d
+_CL_HELPER_	CLHelper.h	7;"	d
+_C_UTIL_	util.h	2;"	d
+__CL_ENABLE_EXCEPTIONS	bfs.cpp	3;"	d	file:
+_clCmdParams	CLHelper.h	/^void _clCmdParams(int argc, char* argv[]){$/;"	f
+_clCreateAndCpyMem	CLHelper.h	/^cl_mem _clCreateAndCpyMem(int size, void * h_mem_source) throw(string){$/;"	f
+_clCreateAndCpyPinnedMem	CLHelper.h	/^cl_mem _clCreateAndCpyPinnedMem(int size, float* h_mem_source) throw(string){$/;"	f
+_clFinish	CLHelper.h	/^void _clFinish() throw(string){$/;"	f
+_clFree	CLHelper.h	/^void _clFree(cl_mem ob) throw(string){$/;"	f
+_clInit	CLHelper.h	/^int _clInit()$/;"	f
+_clInvokeKernel	CLHelper.h	/^void _clInvokeKernel(int kernel_id, int work_items, int work_group_size) throw(string){$/;"	f
+_clInvokeKernel2D	CLHelper.h	/^void _clInvokeKernel2D(int kernel_id, int range_x, int range_y, int group_x, int group_y) throw(string){$/;"	f
+_clInvokeKernel_fusion	CLHelper.h	/^void _clInvokeKernel_fusion(int kernel_id, int work_items, int work_group_size) throw(string){$/;"	f
+_clMalloc	CLHelper.h	/^cl_mem _clMalloc(int size, void * h_mem_ptr) throw(string){$/;"	f
+_clMallocRW	CLHelper.h	/^cl_mem _clMallocRW(int size, void * h_mem_ptr) throw(string){$/;"	f
+_clMallocWO	CLHelper.h	/^cl_mem _clMallocWO(int size) throw(string){$/;"	f
+_clMalloc_cpu	CLHelper.h	/^cl_mem _clMalloc_cpu(int size, void * h_mem_ptr) throw(string){$/;"	f
+_clMemcpyD2H	CLHelper.h	/^void _clMemcpyD2H(cl_mem d_mem, int size, void * h_mem) throw(string){$/;"	f
+_clMemcpyH2D	CLHelper.h	/^void _clMemcpyH2D(cl_mem d_mem, int size, const void *h_mem_ptr) throw(string){$/;"	f
+_clRelease	CLHelper.h	/^void _clRelease()$/;"	f
+_clSetArgs	CLHelper.h	/^void _clSetArgs(int kernel_id, int arg_idx, void * d_mem, int size = 0) throw(string){$/;"	f
+cl_status	CLHelper.h	/^    cl_int		cl_status;$/;"	m	struct:oclHandleStruct
+compare_results	util.h	/^void compare_results(const datatype *cpu_results, const datatype *gpu_results, const int size){$/;"	f
+context	CLHelper.h	/^    cl_context              context;$/;"	m	struct:oclHandleStruct
+coo2csr	old/spmv_util.h	/^void coo2csr(coo_matrix<dimType, dataType>* source, csr_matrix<dimType, dataType>* dest)$/;"	f
+coo_col_id	old/spmv_util.h	/^    dimType* coo_col_id;$/;"	m	struct:coo_matrix
+coo_data	old/spmv_util.h	/^    dataType* coo_data;$/;"	m	struct:coo_matrix
+coo_matrix	old/spmv_util.h	/^struct coo_matrix$/;"	s
+coo_row_id	old/spmv_util.h	/^    dimType* coo_row_id;$/;"	m	struct:coo_matrix
+coo_spmv	old/spmv_util.cpp	/^void coo_spmv(coo_matrix<dimType, dataType>* mat, dataType* vec, dataType* result, dimType vec_size)$/;"	f
+count	timer.h	/^	unsigned long long count;$/;"	m	class:timer
+cpuoffset	CLHelper.h	/^int cpuoffset ;$/;"	v
+csr_col_id	old/spmv_util.h	/^    dimType* csr_col_id;$/;"	m	struct:csr_matrix
+csr_data	old/spmv_util.h	/^    dataType* csr_data;$/;"	m	struct:csr_matrix
+csr_matrix	old/spmv_util.h	/^struct csr_matrix$/;"	s
+csr_row_ptr	old/spmv_util.h	/^    dimType* csr_row_ptr;$/;"	m	struct:csr_matrix
+device_id_inused	CLHelper.h	/^int device_id_inused = 0; \/\/deviced id used (default : 0)$/;"	v
+devices	CLHelper.h	/^    cl_device_id            *devices;$/;"	m	struct:oclHandleStruct
+distance	old/spmv_util.cpp	/^double distance(float* vec1, float* vec2, int size)$/;"	f
+error_str	CLHelper.h	/^    std::string error_str;$/;"	m	struct:oclHandleStruct
+fill	util.h	/^void fill(datatype *A, const int n, const datatype maxi){$/;"	f
+findPaddedSize	old/spmv_util.cpp	/^int findPaddedSize(int realSize, int alignment)$/;"	f
+freeObjects	old/spmv_util.cpp	/^void freeObjects(cl_device_id* devices, cl_context* context, cl_command_queue* cmdQueue, cl_program* program)$/;"	f
+free_coo_matrix	old/spmv_util.h	/^void free_coo_matrix(coo_matrix<dimType, dataType>& mat)$/;"	f
+free_csr_matrix	old/spmv_util.h	/^void free_csr_matrix(csr_matrix<dimType, dataType>& mat)$/;"	f
+getTimeInSeconds	timer.cc	/^double timer::getTimeInSeconds()$/;"	f	class:timer
+get_CPU_speed_in_MHz	timer.cc	/^double timer::get_CPU_speed_in_MHz()$/;"	f	class:timer
+height	old/spmv_util.h	/^    dimType height;$/;"	m	struct:matrixInfo
+high	timer.h	/^		int	   high, low;$/;"	m	struct:timer::__anon1::__anon2
+if_sorted_coo	old/spmv_util.h	/^bool if_sorted_coo(coo_matrix<dimType, dataType>* mat)$/;"	f
+initVectorOne	old/spmv_util.h	/^void initVectorOne(dataType* vec, dimType vec_size)$/;"	f
+initVectorZero	old/spmv_util.h	/^void initVectorZero(dataType* vec, dimType vec_size)$/;"	f
+init_coo_matrix	old/spmv_util.h	/^void init_coo_matrix(coo_matrix<dimType, dataType>& mat)$/;"	f
+init_mat_info	old/spmv_util.h	/^void init_mat_info(matrixInfo<dimType>& info)$/;"	f
+initialization	old/spmv_util.cpp	/^int initialization(cl_device_id* devices, cl_context* context, cl_command_queue* cmdQueue, cl_program* program, char* clFileName)$/;"	f
+initialization2	old/spmv_util.cpp	/^int initialization2(cl_device_id* devices, cl_context* context, cl_command_queue* cmdQueue, cl_program* program, char* clFileName,   cl_command_queue* cpu_cmdQueue)$/;"	f
+kernel	CLHelper.h	/^    std::vector<cl_kernel>  kernel;$/;"	m	struct:oclHandleStruct
+kernel_file	CLHelper.h	/^char kernel_file[100]  = "Kernels.cl";$/;"	v
+kernel_names	CLHelper.h	/^string kernel_names[3] = {"BFS_1", "BFS_2", "BFS_1_cpu"};$/;"	v
+low	timer.h	/^		int	   high, low;$/;"	m	struct:timer::__anon1::__anon2
+main	bfs.cpp	/^int main(int argc, char * argv[])$/;"	f
+main	old/spmv_all.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	old/spmv_csr.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	old/spmv_csr_cpu.cpp	/^int main(int argc, char* argv[])$/;"	f
+matinfo	old/spmv_util.h	/^    matrixInfo<dimType> matinfo;$/;"	m	struct:coo_matrix
+matinfo	old/spmv_util.h	/^    matrixInfo<dimType> matinfo;$/;"	m	struct:csr_matrix
+matrixInfo	old/spmv_util.h	/^struct matrixInfo$/;"	s
+name	timer.h	/^	const char	   *const name;$/;"	m	class:timer
+nnz	old/spmv_util.h	/^    dimType nnz;$/;"	m	struct:matrixInfo
+no_of_edges	bfs.cpp	/^	int no_of_edges;$/;"	m	struct:Node	file:
+oclHandleStruct	CLHelper.h	/^struct oclHandleStruct$/;"	s
+oclHandles	CLHelper.h	/^struct oclHandleStruct oclHandles;$/;"	v	typeref:struct:oclHandleStruct
+operator <<	timer.cc	/^ostream &operator << (ostream &str, class timer &timer)$/;"	f
+pad_csr	old/spmv_util.cpp	/^void pad_csr(csr_matrix<int, float>* source, csr_matrix<int, float>* dest, int alignment)$/;"	f
+print	timer.cc	/^ostream &timer::print(ostream &str)$/;"	f	class:timer
+printMatInfo	old/spmv_util.cpp	/^void printMatInfo(coo_matrix<int, float>* mat)$/;"	f
+print_cl_errstring	old/spmv_util.cpp	/^char *print_cl_errstring(cl_int err) {$/;"	f
+print_matrix	util.h	/^void print_matrix(datatype *A, int height, int width){$/;"	f
+print_time	timer.cc	/^void timer::print_time(ostream &str, const char *which, double time) const$/;"	f	class:timer
+program	CLHelper.h	/^    cl_program              program;$/;"	m	struct:oclHandleStruct
+queue	CLHelper.h	/^    cl_command_queue        *queue;$/;"	m	struct:oclHandleStruct
+reset	timer.h	/^inline void timer::reset()$/;"	f	class:timer
+run_bfs_cpu	bfs.cpp	/^void run_bfs_cpu(int no_of_nodes, Node *h_graph_nodes, int edge_list_size, \\$/;"	f
+run_bfs_gpu	bfs.cpp	/^void run_bfs_gpu(int no_of_nodes, Node *h_graph_nodes, int edge_list_size, \\$/;"	f
+sort_coo	old/spmv_util.h	/^bool sort_coo(coo_matrix<dimType, dataType>* mat)$/;"	f
+spmv_csr_vector_ocl	old/spmv_csr.cpp	/^void spmv_csr_vector_ocl(csr_matrix<int, float>* mat, int* resin, int* resout, int padNum, double& opttime, int& optmethod, char* oclfilename, int* res0, int ntimes)$/;"	f
+spmv_csr_vector_ocl	old/spmv_csr_cpu.cpp	/^void spmv_csr_vector_ocl(csr_matrix<int, float>* mat, int* resin, int* resout, int padNum, double& opttime, int& optmethod, char* oclfilename, int* res0, int ntimes)$/;"	f
+spmv_only	old/spmv_util.cpp	/^void spmv_only(coo_matrix<int, float>* mat, float* vec, float* coores)$/;"	f
+start	timer.h	/^inline void timer::start()$/;"	f	class:timer
+starting	bfs.cpp	/^	int starting;$/;"	m	struct:Node	file:
+stop	timer.h	/^inline void timer::stop()$/;"	f	class:timer
+timer	timer.h	/^class timer {$/;"	c
+timer	timer.h	/^inline timer::timer(const char *name)$/;"	f	class:timer
+timer	timer.h	/^inline timer::timer(const char *name, std::ostream &write_on_exit)$/;"	f	class:timer
+timer_h	timer.h	2;"	d
+timestamp	old/spmv_util.cpp	/^double timestamp ()$/;"	f
+total_kernels	CLHelper.h	/^int total_kernels = 3;$/;"	v
+total_time	timer.h	/^	    long long	   total_time;$/;"	m	union:timer::__anon1
+two_vec_compare	old/spmv_util.cpp	/^void two_vec_compare(int* coovec, int* newvec, int size)$/;"	f
+verify_array	util.h	/^void verify_array(const datatype *cpuResults, const datatype *gpuResults, const int size){$/;"	f
+width	old/spmv_util.h	/^    dimType width;$/;"	m	struct:matrixInfo
+work_group_size	CLHelper.h	/^int work_group_size = 512;$/;"	v
+write_on_exit	timer.h	/^	std::ostream	   *const write_on_exit;$/;"	m	class:timer::std
+~timer	timer.h	/^inline timer::~timer()$/;"	f	class:timer

@@ -2,6 +2,6 @@ make clean;make
 
 
 sleep 3
-./bfs ~/zf/spmv/4downloadgraph/web.txt
+./bfs ../input/webberk/web.txt
 
 
