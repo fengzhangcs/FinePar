@@ -1,4 +1,3 @@
-# FinePar
 FinePar: Irregularity-Aware Fine-Grained Workload Partitioning on Integrated Architectures
 
 ## FinePar ##
@@ -21,15 +20,15 @@ Currently, FinePar is only tested on the following platform, but it is expected 
 ##Publication##
 If you use our work, please cite our paper:
 
-Feng Zhang, Bo Wu, Jidong Zhai, Bingsheng He, Wenguang Chen.FinePar: Irregularity-Aware Fine-Grained Workload Partitioning on Integrated Architectures 
+Feng Zhang, Bo Wu, Jidong Zhai, Bingsheng He, Wenguang Chen.FinePar: Irregularity-Aware Fine-Grained Workload Partitioning on Integrated Architectures
 [CGO2017 URL](http://cgo.org/cgo2017/)
 
-@inproceedings{zhangFinePar,
-  title={{FinePar: Irregularity-Aware Fine-Grained Workload Partitioning on Integrated Architectures}},
-  author={Zhang, Feng and Wu, Bo and Zhai, Jidong and He, Bingsheng and Chen, Wenguang},
-  booktitle={Proceedings of the 2017 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)},
-  year={2017}
-}
+      @inproceedings{zhangFinePar,
+       title={{FinePar: Irregularity-Aware Fine-Grained Workload Partitioning on Integrated Architectures}},
+       author={Zhang, Feng and Wu, Bo and Zhai, Jidong and He, Bingsheng and Chen, Wenguang},
+       booktitle={Proceedings of the 2017 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)},
+       year={2017}
+      }
 
 
 ##Acknowledgement##
@@ -37,7 +36,7 @@ Feng Zhang, Bo Wu, Jidong Zhai, Bingsheng He, Wenguang Chen.FinePar: Irregularit
 
 Feng Zhang, Jidong Zhai and Wenguang Chen are with the Department of Computer Science and Technology, Tsinghua University, Beijing, 100084, China.
 
-Bo Wu is with EECS, Colorado School of Mines, 1610 Illinois Street, Golden, CO 80401, USA.
+Bo Wu is with Computer Science Division, Colorado School of Mines, 1610 Illinois Street, Golden, CO 80401, USA.
 
 Bingsheng He is with the School of Computing, National University of Singapore, 119077, Singapore.
 
@@ -45,4 +44,5 @@ Bingsheng He is with the School of Computing, National University of Singapore, 
 If you have problems, please contact:
 * zhangfeng.thu.hpc@gmail.com
 
-Thanks for your interests in CoRunBench and hope you like it.
+Thanks for your interests in FinePar and hope you like it. FinePar: Irregularity-Aware Fine-Grained Workload Partitioning on Integrated Architectures
+
