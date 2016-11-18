@@ -11,11 +11,13 @@ Currently, FinePar is only tested on the following platform, but it is expected 
 * AMD A10-7850K
 
 ##Guide##
-1. After you download the directory, you need to unzip the input data in the input directory.
+1. After you download the directory, you need to unzip the input data in the input directory. Execute "cd input; tar zxvf input.tar.gz".
 2. We assume the OpenCL is installed in /opt/AMDAPP/. If this is not the directory of OpenCL library, please change the Makefile in each program's directory.
 3. Change the first line of "run.sh". For example, PROGRAMDIR="/home/pacman/FinePar/". PROGRAMDIR is the root of FinePar.
 4. Run the programs using "bash run.sh". The results will be in "results" directory.
 5. If you wants to try single application, please go into its directory and run related bash file.
+6. If you want to read the results, execute "cd ${PROGRAMDIR}/results; bash show.sh" after Step 4 (bash run.sh).
+7. We put a former rseult in the directory "results2016Nov18". You can step into that derectory to see the results with "bash show.sh". New results should look similar.
 
 ##Publication##
 If you use our work, please cite our paper:
