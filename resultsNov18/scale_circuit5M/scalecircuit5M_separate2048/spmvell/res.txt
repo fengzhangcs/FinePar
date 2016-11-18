@@ -1,0 +1,8 @@
+------------------------------------------------------
+----------/home/pacman/FinePar//input/circuit5M/circuit5M.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 5558326, 5558326 ) nnz = 59524291
+
+cpu sequential time = 91.8427 ms. Bandwidth = 8.2615 GB/s. GFlops = 1.29622 GFlops.
+

@@ -1,0 +1,47 @@
+I made it symmetric zf zhangfeng
+
+MatInfo: Width 2987012 Height 2987012 NNZ 50257115
+Max Offset 2985329 Min Offset -2985329
+Histogram: <-15: 16993479 -15~-1 6641646 < 0-15 9628511 > 16 16993479
+Cacheline usage per row: max 185952 min 1 avg 4.388267
+vertexcnt=2987012
+cpu color=46
+Program File Name: /home/pacman/zf/wubo/apu_corun/graphcoloring_seperate/spmv_csr_vector.cl
+---
+>>> Build Log:
+
+<<< End of Build Log
+sizeofulong=8 bytesrowsetzf=3823375
+ simple:totalms: 19027.680159 ioms: 16282.431841 ioms%: 0.855723 bitmapms: 8.180141 bitmapms%: 0.000430 otherms: 2737.068176 otherms%: 0.143847 1479279109.143288 1479279109.143299 1479279125.425731 1479279128.162772 1479279128.170952 1479279128.170968
+ percent:totalms: 19027.680159 ioms: 16282.431841 ioms%: 85.572344 bitmapms: 8.180141 bitmapms%: 0.042991 otherms: 2737.068176 otherms%: 14.384666 1479279109.143288 1479279109.143299 1479279125.425731 1479279128.162772 1479279128.170952 1479279128.170968
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:240 cpu time 424.844980 ms GFLOPS 10.883157 code 7 
+
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:264 cpu time 481.373072 ms GFLOPS 9.605138 code 7 
+
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:288 cpu time 466.562033 ms GFLOPS 9.910053 code 7 
+
+******* Min time 0.424845 groupnum 240 **********
+
+CPUTIMEinms: 84.071893 GPUTIMEinms: 342.450180 cpuoffset: 128
+
+
+NNZ Before 50257115 After 69809232
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 424.844980 ms best method 7 gflops 23.659037
+------------------------------------------------------------------------
+CSR VEC with padding best time 100000000.000000 ms best method 0 gflops 0.000101
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 424.844980

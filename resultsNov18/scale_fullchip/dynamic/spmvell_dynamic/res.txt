@@ -1,0 +1,15 @@
+g++ -w -O3 main.cpp -o spmv -I/opt/AMDAPPSDK-3.0-0-Beta/include -L/opt/AMDAPPSDK-3.0-0-Beta/lib/x86_64 -lOpenCL -lpthread -D USE_DOUBLE=0 -D USE_SVM_ALWAYS=1
+g++ -w -O3 main_cpu.cpp -o spmv_cpu -I/opt/AMDAPPSDK-3.0-0-Beta/include -L/opt/AMDAPPSDK-3.0-0-Beta/lib/x86_64 -lOpenCL -lpthread -D USE_DOUBLE=0 -D USE_SVM_ALWAYS=1
+#g++ -O3 main.cpp -o spmv -I/opt/AMDAPPSDK-3.0-0-Beta/include -L/opt/AMDAPPSDK-3.0-0-Beta/lib/x86_64 -lOpenCL -lpthread -D USE_DOUBLE=0 -D USE_SVM_ALWAYS=1
+#mkdir -p build
+#cp spmv *.cl ./build/
+------------------------------------------------------
+----------../input/FullChip/FullChip.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+symmetric = false
+nnzA=26621990, m=2987012, csrRowPtrA_counter[m]=26621990
+ ( 2987012, 2987012 ) nnz = 26621990
+
+cpu sequential time = 72.1049 ms. Bandwidth = 4.76195 GB/s. GFlops = 0.738424 GFlops.
+

@@ -1,0 +1,1446 @@
+rm -f spmv main *.o
+g++  -O3 -g  -w  -c spmv_csr.cpp  -I/opt/AMDAPP/include -L/opt/AMDAPP/lib/x86_64 -lOpenCL -lm 
+g++  -O3  -g  -w  -c spmv_util.cpp  -I/opt/AMDAPP/include -L/opt/AMDAPP/lib/x86_64 -lOpenCL -lm 
+g++ -O3  -g -w  spmv_util.o spmv_csr.o -I/opt/AMDAPP/include -L/opt/AMDAPP/lib/x86_64 -lOpenCL -lm -o spmv
+rm -f *.o
+cpuoffset=0
+
+MatInfo: Width 2987012 Height 2987012 NNZ 26621990
+Max Offset 2985329 Min Offset -2985329
+Histogram: <-15: 8496744 -15~-1 3320823 < 0-15 6307688 > 16 8496735
+Cacheline usage per row: max 185952 min 1 avg 4.388264
+cpu start initialization
+cpu start computing
+Program File Name: /home/pacman/zf/wubo/apu_corun/hits_percent_v2/spmv_csr_vector.cl
+---
+>>> Build Log:
+h
+<<< End of Build Log
+rowsetzf=0
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:24 cpu time 565.389776 ms GFLOPS 0.941722 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:48 cpu time 567.465401 ms GFLOPS 0.938277 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:72 cpu time 565.932226 ms GFLOPS 0.940819 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:96 cpu time 566.583824 ms GFLOPS 0.939737 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:120 cpu time 565.651560 ms GFLOPS 0.941286 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:144 cpu time 566.468525 ms GFLOPS 0.939928 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:168 cpu time 566.251707 ms GFLOPS 0.940288 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:192 cpu time 566.438866 ms GFLOPS 0.939978 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:216 cpu time 579.443264 ms GFLOPS 0.918882 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:240 cpu time 577.038002 ms GFLOPS 0.922712 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:264 cpu time 567.734194 ms GFLOPS 0.937833 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:288 cpu time 582.422209 ms GFLOPS 0.914182 code 7 
+
+******* Min time 0.565390 groupnum 24 **********
+NNZ Before 26621990 After 53714016
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 565.389776 ms best method 7 gflops 0.470861
+------------------------------------------------------------------------
+CSR VEC with padding best time 10000000.000000 ms best method 0 gflops 0.000027
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 565.389776
+cpuoffset=10
+
+MatInfo: Width 2987012 Height 2987012 NNZ 26621990
+Max Offset 2985329 Min Offset -2985329
+Histogram: <-15: 8496744 -15~-1 3320823 < 0-15 6307688 > 16 8496735
+Cacheline usage per row: max 185952 min 1 avg 4.388264
+cpu start initialization
+cpu start computing
+Program File Name: /home/pacman/zf/wubo/apu_corun/hits_percent_v2/spmv_csr_vector.cl
+---
+>>> Build Log:
+∞ƒ˜
+<<< End of Build Log
+rowsetzf=298701
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:24 cpu time 9197.089577 ms GFLOPS 0.057892 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:48 cpu time 9125.289440 ms GFLOPS 0.058348 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:72 cpu time 9228.831816 ms GFLOPS 0.057693 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:96 cpu time 9549.452639 ms GFLOPS 0.055756 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:120 cpu time 9275.676775 ms GFLOPS 0.057402 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:144 cpu time 9198.695326 ms GFLOPS 0.057882 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:168 cpu time 9281.648588 ms GFLOPS 0.057365 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:192 cpu time 9582.672644 ms GFLOPS 0.055563 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:216 cpu time 9280.689192 ms GFLOPS 0.057371 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:240 cpu time 9208.223772 ms GFLOPS 0.057822 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:264 cpu time 9283.206606 ms GFLOPS 0.057355 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:288 cpu time 8660.751200 ms GFLOPS 0.061477 code 7 
+
+******* Min time 8.660751 groupnum 288 **********
+NNZ Before 26621990 After 53714016
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 8660.751200 ms best method 7 gflops 0.030739
+------------------------------------------------------------------------
+CSR VEC with padding best time 10000000.000000 ms best method 0 gflops 0.000027
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 8660.751200
+cpuoffset=20
+
+MatInfo: Width 2987012 Height 2987012 NNZ 26621990
+Max Offset 2985329 Min Offset -2985329
+Histogram: <-15: 8496744 -15~-1 3320823 < 0-15 6307688 > 16 8496735
+Cacheline usage per row: max 185952 min 1 avg 4.388264
+cpu start initialization
+cpu start computing
+Program File Name: /home/pacman/zf/wubo/apu_corun/hits_percent_v2/spmv_csr_vector.cl
+---
+>>> Build Log:
+††
+<<< End of Build Log
+rowsetzf=597402
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:24 cpu time 9233.992767 ms GFLOPS 0.057661 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:48 cpu time 9168.389797 ms GFLOPS 0.058073 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:72 cpu time 9248.463821 ms GFLOPS 0.057571 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:96 cpu time 9608.594799 ms GFLOPS 0.055413 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:120 cpu time 9339.002132 ms GFLOPS 0.057012 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:144 cpu time 9262.355852 ms GFLOPS 0.057484 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:168 cpu time 9335.612059 ms GFLOPS 0.057033 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:192 cpu time 9656.853819 ms GFLOPS 0.055136 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:216 cpu time 9349.088812 ms GFLOPS 0.056951 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:240 cpu time 9360.604382 ms GFLOPS 0.056881 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:264 cpu time 9283.935499 ms GFLOPS 0.057351 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:288 cpu time 8341.753817 ms GFLOPS 0.063828 code 7 
+
+******* Min time 8.341754 groupnum 288 **********
+NNZ Before 26621990 After 53714016
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 8341.753817 ms best method 7 gflops 0.031914
+------------------------------------------------------------------------
+CSR VEC with padding best time 10000000.000000 ms best method 0 gflops 0.000027
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 8341.753817
+cpuoffset=30
+
+MatInfo: Width 2987012 Height 2987012 NNZ 26621990
+Max Offset 2985329 Min Offset -2985329
+Histogram: <-15: 8496744 -15~-1 3320823 < 0-15 6307688 > 16 8496735
+Cacheline usage per row: max 185952 min 1 avg 4.388264
+cpu start initialization
+cpu start computing
+Program File Name: /home/pacman/zf/wubo/apu_corun/hits_percent_v2/spmv_csr_vector.cl
+---
+>>> Build Log:
+È¬
+<<< End of Build Log
+rowsetzf=896103
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:24 cpu time 9255.648613 ms GFLOPS 0.057526 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:48 cpu time 9188.751984 ms GFLOPS 0.057945 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:72 cpu time 9302.290249 ms GFLOPS 0.057237 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:96 cpu time 9662.432766 ms GFLOPS 0.055104 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:120 cpu time 9403.516388 ms GFLOPS 0.056621 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:144 cpu time 9335.859442 ms GFLOPS 0.057032 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:168 cpu time 9404.352617 ms GFLOPS 0.056616 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:192 cpu time 9724.608326 ms GFLOPS 0.054752 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:216 cpu time 9424.899387 ms GFLOPS 0.056493 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:240 cpu time 9422.781610 ms GFLOPS 0.056506 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:264 cpu time 9378.042412 ms GFLOPS 0.056775 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:288 cpu time 9452.663755 ms GFLOPS 0.056327 code 7 
+
+******* Min time 9.188752 groupnum 48 **********
+NNZ Before 26621990 After 53714016
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 9188.751984 ms best method 7 gflops 0.028972
+------------------------------------------------------------------------
+CSR VEC with padding best time 10000000.000000 ms best method 0 gflops 0.000027
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 9188.751984
+cpuoffset=40
+
+MatInfo: Width 2987012 Height 2987012 NNZ 26621990
+Max Offset 2985329 Min Offset -2985329
+Histogram: <-15: 8496744 -15~-1 3320823 < 0-15 6307688 > 16 8496735
+Cacheline usage per row: max 185952 min 1 avg 4.388264
+cpu start initialization
+cpu start computing
+Program File Name: /home/pacman/zf/wubo/apu_corun/hits_percent_v2/spmv_csr_vector.cl
+---
+>>> Build Log:
+páÇ
+<<< End of Build Log
+rowsetzf=1194804
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:24 cpu time 9290.070772 ms GFLOPS 0.057313 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:48 cpu time 9216.238403 ms GFLOPS 0.057772 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:72 cpu time 9325.453234 ms GFLOPS 0.057095 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:96 cpu time 9723.708534 ms GFLOPS 0.054757 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:120 cpu time 9486.697865 ms GFLOPS 0.056125 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:144 cpu time 9381.007338 ms GFLOPS 0.056757 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:168 cpu time 9458.181810 ms GFLOPS 0.056294 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:192 cpu time 9777.786589 ms GFLOPS 0.054454 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:216 cpu time 9413.772774 ms GFLOPS 0.056560 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:240 cpu time 9490.326595 ms GFLOPS 0.056103 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:264 cpu time 9459.556961 ms GFLOPS 0.056286 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:288 cpu time 9511.517000 ms GFLOPS 0.055978 code 7 
+
+******* Min time 9.216238 groupnum 48 **********
+NNZ Before 26621990 After 53714016
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 9216.238403 ms best method 7 gflops 0.028886
+------------------------------------------------------------------------
+CSR VEC with padding best time 10000000.000000 ms best method 0 gflops 0.000027
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 9216.238403
+cpuoffset=50
+
+MatInfo: Width 2987012 Height 2987012 NNZ 26621990
+Max Offset 2985329 Min Offset -2985329
+Histogram: <-15: 8496744 -15~-1 3320823 < 0-15 6307688 > 16 8496735
+Cacheline usage per row: max 185952 min 1 avg 4.388264
+cpu start initialization
+cpu start computing
+Program File Name: /home/pacman/zf/wubo/apu_corun/hits_percent_v2/spmv_csr_vector.cl
+---
+>>> Build Log:
+@è	
+<<< End of Build Log
+rowsetzf=1493506
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:24 cpu time 9320.941019 ms GFLOPS 0.057123 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:48 cpu time 9238.706398 ms GFLOPS 0.057631 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:72 cpu time 9364.491320 ms GFLOPS 0.056857 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:96 cpu time 9772.195196 ms GFLOPS 0.054485 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:120 cpu time 9543.576860 ms GFLOPS 0.055790 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:144 cpu time 9444.696188 ms GFLOPS 0.056374 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:168 cpu time 9518.449402 ms GFLOPS 0.055938 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:192 cpu time 9843.234444 ms GFLOPS 0.054092 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:216 cpu time 9477.710152 ms GFLOPS 0.056178 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:240 cpu time 9477.920389 ms GFLOPS 0.056177 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:264 cpu time 9478.009987 ms GFLOPS 0.056176 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:288 cpu time 9563.179827 ms GFLOPS 0.055676 code 7 
+
+******* Min time 9.238706 groupnum 48 **********
+NNZ Before 26621990 After 53714016
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 9238.706398 ms best method 7 gflops 0.028816
+------------------------------------------------------------------------
+CSR VEC with padding best time 10000000.000000 ms best method 0 gflops 0.000027
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 9238.706398
+cpuoffset=60
+
+MatInfo: Width 2987012 Height 2987012 NNZ 26621990
+Max Offset 2985329 Min Offset -2985329
+Histogram: <-15: 8496744 -15~-1 3320823 < 0-15 6307688 > 16 8496735
+Cacheline usage per row: max 185952 min 1 avg 4.388264
+cpu start initialization
+cpu start computing
+Program File Name: /home/pacman/zf/wubo/apu_corun/hits_percent_v2/spmv_csr_vector.cl
+---
+>>> Build Log:
+0Õa
+<<< End of Build Log
+rowsetzf=1792207
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:24 cpu time 9334.778214 ms GFLOPS 0.057038 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:48 cpu time 9249.068165 ms GFLOPS 0.057567 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:72 cpu time 9382.757235 ms GFLOPS 0.056747 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:96 cpu time 9823.847961 ms GFLOPS 0.054199 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:120 cpu time 9567.743015 ms GFLOPS 0.055649 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:144 cpu time 9458.436537 ms GFLOPS 0.056293 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:168 cpu time 9540.169191 ms GFLOPS 0.055810 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:192 cpu time 9838.215351 ms GFLOPS 0.054120 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:216 cpu time 9566.094446 ms GFLOPS 0.055659 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:240 cpu time 9486.171198 ms GFLOPS 0.056128 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:264 cpu time 9497.956038 ms GFLOPS 0.056058 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:288 cpu time 9570.363998 ms GFLOPS 0.055634 code 7 
+
+******* Min time 9.249068 groupnum 48 **********
+NNZ Before 26621990 After 53714016
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 9249.068165 ms best method 7 gflops 0.028783
+------------------------------------------------------------------------
+CSR VEC with padding best time 10000000.000000 ms best method 0 gflops 0.000027
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 9249.068165
+cpuoffset=70
+
+MatInfo: Width 2987012 Height 2987012 NNZ 26621990
+Max Offset 2985329 Min Offset -2985329
+Histogram: <-15: 8496744 -15~-1 3320823 < 0-15 6307688 > 16 8496735
+Cacheline usage per row: max 185952 min 1 avg 4.388264
+cpu start initialization
+cpu start computing
+Program File Name: /home/pacman/zf/wubo/apu_corun/hits_percent_v2/spmv_csr_vector.cl
+---
+>>> Build Log:
+p¡»
+<<< End of Build Log
+rowsetzf=2090908
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:24 cpu time 9357.110596 ms GFLOPS 0.056902 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:48 cpu time 9279.825592 ms GFLOPS 0.057376 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:72 cpu time 9422.713804 ms GFLOPS 0.056506 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:96 cpu time 9841.655588 ms GFLOPS 0.054101 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:120 cpu time 9584.828663 ms GFLOPS 0.055550 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:144 cpu time 9477.868986 ms GFLOPS 0.056177 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:168 cpu time 9562.442780 ms GFLOPS 0.055680 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:192 cpu time 9898.561954 ms GFLOPS 0.053790 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:216 cpu time 9607.312965 ms GFLOPS 0.055420 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:240 cpu time 9746.936369 ms GFLOPS 0.054626 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:264 cpu time 9600.233269 ms GFLOPS 0.055461 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:288 cpu time 9605.729532 ms GFLOPS 0.055429 code 7 
+
+******* Min time 9.279826 groupnum 48 **********
+NNZ Before 26621990 After 53714016
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 9279.825592 ms best method 7 gflops 0.028688
+------------------------------------------------------------------------
+CSR VEC with padding best time 10000000.000000 ms best method 0 gflops 0.000027
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 9279.825592
+cpuoffset=80
+
+MatInfo: Width 2987012 Height 2987012 NNZ 26621990
+Max Offset 2985329 Min Offset -2985329
+Histogram: <-15: 8496744 -15~-1 3320823 < 0-15 6307688 > 16 8496735
+Cacheline usage per row: max 185952 min 1 avg 4.388264
+cpu start initialization
+cpu start computing
+Program File Name: /home/pacman/zf/wubo/apu_corun/hits_percent_v2/spmv_csr_vector.cl
+---
+>>> Build Log:
+@r‡
+<<< End of Build Log
+rowsetzf=2389609
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:24 cpu time 9361.358786 ms GFLOPS 0.056876 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:48 cpu time 9293.231964 ms GFLOPS 0.057293 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:72 cpu time 9424.319839 ms GFLOPS 0.056496 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:96 cpu time 9841.531372 ms GFLOPS 0.054101 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:120 cpu time 9589.854622 ms GFLOPS 0.055521 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:144 cpu time 9502.047348 ms GFLOPS 0.056034 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:168 cpu time 9573.787594 ms GFLOPS 0.055614 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:192 cpu time 9908.929253 ms GFLOPS 0.053733 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:216 cpu time 9608.859396 ms GFLOPS 0.055411 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:240 cpu time 9576.099062 ms GFLOPS 0.055601 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:264 cpu time 9611.646605 ms GFLOPS 0.055395 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:288 cpu time 9604.212999 ms GFLOPS 0.055438 code 7 
+
+******* Min time 9.293232 groupnum 48 **********
+NNZ Before 26621990 After 53714016
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 9293.231964 ms best method 7 gflops 0.028647
+------------------------------------------------------------------------
+CSR VEC with padding best time 10000000.000000 ms best method 0 gflops 0.000027
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 9293.231964
+cpuoffset=90
+
+MatInfo: Width 2987012 Height 2987012 NNZ 26621990
+Max Offset 2985329 Min Offset -2985329
+Histogram: <-15: 8496744 -15~-1 3320823 < 0-15 6307688 > 16 8496735
+Cacheline usage per row: max 185952 min 1 avg 4.388264
+cpu start initialization
+cpu start computing
+Program File Name: /home/pacman/zf/wubo/apu_corun/hits_percent_v2/spmv_csr_vector.cl
+---
+>>> Build Log:
+∞™N
+<<< End of Build Log
+rowsetzf=2688310
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:24 cpu time 9363.387012 ms GFLOPS 0.056864 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:48 cpu time 9288.931608 ms GFLOPS 0.057320 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:72 cpu time 9414.962292 ms GFLOPS 0.056553 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:96 cpu time 9860.952044 ms GFLOPS 0.053995 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:120 cpu time 9602.323008 ms GFLOPS 0.055449 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:144 cpu time 9492.316198 ms GFLOPS 0.056092 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:168 cpu time 9584.374046 ms GFLOPS 0.055553 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:192 cpu time 9907.851171 ms GFLOPS 0.053739 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:216 cpu time 9634.255838 ms GFLOPS 0.055265 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:240 cpu time 9627.969599 ms GFLOPS 0.055301 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:264 cpu time 9802.862024 ms GFLOPS 0.054315 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:288 cpu time 9647.685003 ms GFLOPS 0.055188 code 7 
+
+******* Min time 9.288932 groupnum 48 **********
+NNZ Before 26621990 After 53714016
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 9288.931608 ms best method 7 gflops 0.028660
+------------------------------------------------------------------------
+CSR VEC with padding best time 10000000.000000 ms best method 0 gflops 0.000027
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 9288.931608
+cpuoffset=100
+
+MatInfo: Width 2987012 Height 2987012 NNZ 26621990
+Max Offset 2985329 Min Offset -2985329
+Histogram: <-15: 8496744 -15~-1 3320823 < 0-15 6307688 > 16 8496735
+Cacheline usage per row: max 185952 min 1 avg 4.388264
+cpu start initialization
+cpu start computing
+Program File Name: /home/pacman/zf/wubo/apu_corun/hits_percent_v2/spmv_csr_vector.cl
+---
+>>> Build Log:
+†ßT	
+<<< End of Build Log
+rowsetzf=2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:24 cpu time 9372.326994 ms GFLOPS 0.056810 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:48 cpu time 9278.042555 ms GFLOPS 0.057387 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:72 cpu time 9425.790071 ms GFLOPS 0.056488 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:96 cpu time 9879.524231 ms GFLOPS 0.053893 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:120 cpu time 9618.811417 ms GFLOPS 0.055354 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:144 cpu time 9498.642683 ms GFLOPS 0.056054 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:168 cpu time 9594.696379 ms GFLOPS 0.055493 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:192 cpu time 9928.242207 ms GFLOPS 0.053629 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:216 cpu time 9649.033976 ms GFLOPS 0.055181 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:240 cpu time 9641.723251 ms GFLOPS 0.055222 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:264 cpu time 9944.322586 ms GFLOPS 0.053542 code 7 
+
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+Max diff id 0 coo res 1.000000 res 1.000000 
+
+Correctness Check: Distance 0.000000e+00 max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 2987012
+
+CSR vector SLM row ptr groupnum:288 cpu time 9629.452944 ms GFLOPS 0.055293 code 7 
+
+******* Min time 9.278043 groupnum 48 **********
+NNZ Before 26621990 After 53714016
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 9278.042555 ms best method 7 gflops 0.028694
+------------------------------------------------------------------------
+CSR VEC with padding best time 10000000.000000 ms best method 0 gflops 0.000027
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 9278.042555

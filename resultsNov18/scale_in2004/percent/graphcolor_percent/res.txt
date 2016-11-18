@@ -1,0 +1,302 @@
+rm -f spmv main *.o
+g++  -O3 -g  -w  -c spmv_csr.cpp  -I/opt/AMDAPP/include -L/opt/AMDAPP/lib/x86_64 -lOpenCL -lm 
+g++  -O3  -g  -w  -c spmv_util.cpp  -I/opt/AMDAPP/include -L/opt/AMDAPP/lib/x86_64 -lOpenCL -lm 
+g++ -O3  -g -w  spmv_util.o spmv_csr.o -I/opt/AMDAPP/include -L/opt/AMDAPP/lib/x86_64 -lOpenCL -lm -o spmv
+rm -f *.o
+cpuoffset=0
+I made it symmetric zf zhangfeng
+
+MatInfo: Width 1382908 Height 1382908 NNZ 33456696
+Max Offset 1353282 Min Offset -1353282
+Histogram: <-15: 12303257 -15~-1 4236386 < 0-15 4613796 > 16 12303257
+Cacheline usage per row: max 2145 min 0 avg 4.019812
+vertexcnt=1382908
+cpu color=708
+Program File Name: /home/pacman/zf/wubo/apu_corun/graphcoloring_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+pW
+<<< End of Build Log
+rowsetzf=0
+
+CSR vector SLM row ptr groupnum:240 cpu time 2781.772137 ms GFLOPS 17.030396 code 7 
+
+******* Min time 2.781772 groupnum 240 **********
+NNZ Before 33456696 After 46625120
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 2781.772137 ms best method 7 gflops 2.405423
+------------------------------------------------------------------------
+CSR VEC with padding best time 100000000.000000 ms best method 0 gflops 0.000067
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 2781.772137
+cpuoffset=10
+I made it symmetric zf zhangfeng
+
+MatInfo: Width 1382908 Height 1382908 NNZ 33456696
+Max Offset 1353282 Min Offset -1353282
+Histogram: <-15: 12303257 -15~-1 4236386 < 0-15 4613796 > 16 12303257
+Cacheline usage per row: max 2145 min 0 avg 4.019812
+vertexcnt=1382908
+cpu color=708
+Program File Name: /home/pacman/zf/wubo/apu_corun/graphcoloring_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+‡KÉ
+<<< End of Build Log
+rowsetzf=138290
+
+CSR vector SLM row ptr groupnum:240 cpu time 3705.662966 ms GFLOPS 12.784401 code 7 
+
+******* Min time 3.705663 groupnum 240 **********
+NNZ Before 33456696 After 46625120
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 3705.662966 ms best method 7 gflops 1.805706
+------------------------------------------------------------------------
+CSR VEC with padding best time 100000000.000000 ms best method 0 gflops 0.000067
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 3705.662966
+cpuoffset=20
+I made it symmetric zf zhangfeng
+
+MatInfo: Width 1382908 Height 1382908 NNZ 33456696
+Max Offset 1353282 Min Offset -1353282
+Histogram: <-15: 12303257 -15~-1 4236386 < 0-15 4613796 > 16 12303257
+Cacheline usage per row: max 2145 min 0 avg 4.019812
+vertexcnt=1382908
+cpu color=708
+Program File Name: /home/pacman/zf/wubo/apu_corun/graphcoloring_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+ ëÄ
+<<< End of Build Log
+rowsetzf=276581
+
+CSR vector SLM row ptr groupnum:240 cpu time 3948.633909 ms GFLOPS 11.997740 code 7 
+
+******* Min time 3.948634 groupnum 240 **********
+NNZ Before 33456696 After 46625120
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 3948.633909 ms best method 7 gflops 1.694596
+------------------------------------------------------------------------
+CSR VEC with padding best time 100000000.000000 ms best method 0 gflops 0.000067
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 3948.633909
+cpuoffset=30
+I made it symmetric zf zhangfeng
+
+MatInfo: Width 1382908 Height 1382908 NNZ 33456696
+Max Offset 1353282 Min Offset -1353282
+Histogram: <-15: 12303257 -15~-1 4236386 < 0-15 4613796 > 16 12303257
+Cacheline usage per row: max 2145 min 0 avg 4.019812
+vertexcnt=1382908
+cpu color=708
+Program File Name: /home/pacman/zf/wubo/apu_corun/graphcoloring_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+pr≥
+<<< End of Build Log
+rowsetzf=414872
+
+CSR vector SLM row ptr groupnum:240 cpu time 4804.093122 ms GFLOPS 9.861316 code 7 
+
+******* Min time 4.804093 groupnum 240 **********
+NNZ Before 33456696 After 46625120
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 4804.093122 ms best method 7 gflops 1.392841
+------------------------------------------------------------------------
+CSR VEC with padding best time 100000000.000000 ms best method 0 gflops 0.000067
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 4804.093122
+cpuoffset=40
+I made it symmetric zf zhangfeng
+
+MatInfo: Width 1382908 Height 1382908 NNZ 33456696
+Max Offset 1353282 Min Offset -1353282
+Histogram: <-15: 12303257 -15~-1 4236386 < 0-15 4613796 > 16 12303257
+Cacheline usage per row: max 2145 min 0 avg 4.019812
+vertexcnt=1382908
+cpu color=708
+Program File Name: /home/pacman/zf/wubo/apu_corun/graphcoloring_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+p£
+<<< End of Build Log
+rowsetzf=553163
+
+CSR vector SLM row ptr groupnum:240 cpu time 5122.508049 ms GFLOPS 9.248337 code 7 
+
+******* Min time 5.122508 groupnum 240 **********
+NNZ Before 33456696 After 46625120
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 5122.508049 ms best method 7 gflops 1.306262
+------------------------------------------------------------------------
+CSR VEC with padding best time 100000000.000000 ms best method 0 gflops 0.000067
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 5122.508049
+cpuoffset=50
+I made it symmetric zf zhangfeng
+
+MatInfo: Width 1382908 Height 1382908 NNZ 33456696
+Max Offset 1353282 Min Offset -1353282
+Histogram: <-15: 12303257 -15~-1 4236386 < 0-15 4613796 > 16 12303257
+Cacheline usage per row: max 2145 min 0 avg 4.019812
+vertexcnt=1382908
+cpu color=708
+Program File Name: /home/pacman/zf/wubo/apu_corun/graphcoloring_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+‡K˝
+<<< End of Build Log
+rowsetzf=691454
+
+CSR vector SLM row ptr groupnum:240 cpu time 5065.484047 ms GFLOPS 9.352449 code 7 
+
+******* Min time 5.065484 groupnum 240 **********
+NNZ Before 33456696 After 46625120
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 5065.484047 ms best method 7 gflops 1.320967
+------------------------------------------------------------------------
+CSR VEC with padding best time 100000000.000000 ms best method 0 gflops 0.000067
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 5065.484047
+cpuoffset=60
+I made it symmetric zf zhangfeng
+
+MatInfo: Width 1382908 Height 1382908 NNZ 33456696
+Max Offset 1353282 Min Offset -1353282
+Histogram: <-15: 12303257 -15~-1 4236386 < 0-15 4613796 > 16 12303257
+Cacheline usage per row: max 2145 min 0 avg 4.019812
+vertexcnt=1382908
+cpu color=708
+Program File Name: /home/pacman/zf/wubo/apu_corun/graphcoloring_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+ Q
+<<< End of Build Log
+rowsetzf=829744
+
+CSR vector SLM row ptr groupnum:240 cpu time 4896.810055 ms GFLOPS 9.674601 code 7 
+
+******* Min time 4.896810 groupnum 240 **********
+NNZ Before 33456696 After 46625120
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 4896.810055 ms best method 7 gflops 1.366469
+------------------------------------------------------------------------
+CSR VEC with padding best time 100000000.000000 ms best method 0 gflops 0.000067
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 4896.810055
+cpuoffset=70
+I made it symmetric zf zhangfeng
+
+MatInfo: Width 1382908 Height 1382908 NNZ 33456696
+Max Offset 1353282 Min Offset -1353282
+Histogram: <-15: 12303257 -15~-1 4236386 < 0-15 4613796 > 16 12303257
+Cacheline usage per row: max 2145 min 0 avg 4.019812
+vertexcnt=1382908
+cpu color=708
+Program File Name: /home/pacman/zf/wubo/apu_corun/graphcoloring_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+pr
+<<< End of Build Log
+rowsetzf=968035
+
+CSR vector SLM row ptr groupnum:240 cpu time 4760.406971 ms GFLOPS 9.951813 code 7 
+
+******* Min time 4.760407 groupnum 240 **********
+NNZ Before 33456696 After 46625120
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 4760.406971 ms best method 7 gflops 1.405623
+------------------------------------------------------------------------
+CSR VEC with padding best time 100000000.000000 ms best method 0 gflops 0.000067
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 4760.406971
+cpuoffset=80
+I made it symmetric zf zhangfeng
+
+MatInfo: Width 1382908 Height 1382908 NNZ 33456696
+Max Offset 1353282 Min Offset -1353282
+Histogram: <-15: 12303257 -15~-1 4236386 < 0-15 4613796 > 16 12303257
+Cacheline usage per row: max 2145 min 0 avg 4.019812
+vertexcnt=1382908
+cpu color=708
+Program File Name: /home/pacman/zf/wubo/apu_corun/graphcoloring_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+–Œµ
+<<< End of Build Log
+rowsetzf=1106326
+
+CSR vector SLM row ptr groupnum:240 cpu time 4493.581057 ms GFLOPS 10.542746 code 7 
+
+******* Min time 4.493581 groupnum 240 **********
+NNZ Before 33456696 After 46625120
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 4493.581057 ms best method 7 gflops 1.489088
+------------------------------------------------------------------------
+CSR VEC with padding best time 100000000.000000 ms best method 0 gflops 0.000067
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 4493.581057
+cpuoffset=90
+I made it symmetric zf zhangfeng
+
+MatInfo: Width 1382908 Height 1382908 NNZ 33456696
+Max Offset 1353282 Min Offset -1353282
+Histogram: <-15: 12303257 -15~-1 4236386 < 0-15 4613796 > 16 12303257
+Cacheline usage per row: max 2145 min 0 avg 4.019812
+vertexcnt=1382908
+cpu color=708
+Program File Name: /home/pacman/zf/wubo/apu_corun/graphcoloring_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+ê‚-
+<<< End of Build Log
+rowsetzf=1244617
+
+CSR vector SLM row ptr groupnum:240 cpu time 5223.531961 ms GFLOPS 9.069473 code 7 
+
+******* Min time 5.223532 groupnum 240 **********
+NNZ Before 33456696 After 46625120
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 5223.531961 ms best method 7 gflops 1.280999
+------------------------------------------------------------------------
+CSR VEC with padding best time 100000000.000000 ms best method 0 gflops 0.000067
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 5223.531961
+cpuoffset=100
+I made it symmetric zf zhangfeng
+
+MatInfo: Width 1382908 Height 1382908 NNZ 33456696
+Max Offset 1353282 Min Offset -1353282
+Histogram: <-15: 12303257 -15~-1 4236386 < 0-15 4613796 > 16 12303257
+Cacheline usage per row: max 2145 min 0 avg 4.019812
+vertexcnt=1382908
+cpu color=708
+Program File Name: /home/pacman/zf/wubo/apu_corun/graphcoloring_percent/spmv_csr_vector.cl
+---
+>>> Build Log:
+Í
+<<< End of Build Log
+rowsetzf=1382908
+
+CSR vector SLM row ptr groupnum:240 cpu time 4966.678143 ms GFLOPS 9.538504 code 7 
+
+******* Min time 4.966678 groupnum 240 **********
+NNZ Before 33456696 After 46625120
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 4966.678143 ms best method 7 gflops 1.347246
+------------------------------------------------------------------------
+CSR VEC with padding best time 100000000.000000 ms best method 0 gflops 0.000067
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 4966.678143

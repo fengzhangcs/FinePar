@@ -1,0 +1,47 @@
+I made it symmetric zf zhangfeng
+
+MatInfo: Width 1048576 Height 1048576 NNZ 62695676
+Max Offset 1048145 Min Offset -1048145
+Histogram: <-15: 31346946 -15~-1 892 < 0-15 892 > 16 31346946
+Cacheline usage per row: max 42504 min 0 avg 29.440332
+vertexcnt=1048576
+cpu color=1656
+Program File Name: /home/pacman/zf/wubo/apu_corun/graphcoloring_seperate/spmv_csr_vector.cl
+---
+>>> Build Log:
+ C
+<<< End of Build Log
+sizeofulong=8 bytesrowsetzf=21474836
+ simple:totalms: 70341.156006 ioms: 11840.234995 ioms%: 0.168326 bitmapms: 5.507946 bitmapms%: 0.000078 otherms: 58495.413065 otherms%: 0.831596 1479038166.427537 1479038166.427542 1479038178.267777 1479038236.763159 1479038236.768667 1479038236.768693
+ percent:totalms: 70341.156006 ioms: 11840.234995 ioms%: 16.832585 bitmapms: 5.507946 bitmapms%: 0.007830 otherms: 58495.413065 otherms%: 83.159584 1479038166.427537 1479038166.427542 1479038178.267777 1479038236.763159 1479038236.768667 1479038236.768693
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1048576
+
+CSR vector SLM row ptr groupnum:240 cpu time 17056.787014 ms GFLOPS 12.173927 code 7 
+
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1048576
+
+CSR vector SLM row ptr groupnum:264 cpu time 18069.849014 ms GFLOPS 11.491412 code 7 
+
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1048576
+
+CSR vector SLM row ptr groupnum:288 cpu time 18271.874189 ms GFLOPS 11.364356 code 7 
+
+******* Min time 17.056787 groupnum 240 **********
+
+CPUTIMEinms: 2701.195484 GPUTIMEinms: 14727.016620 cpuoffset: 2048
+
+
+NNZ Before 62695676 After 68720704
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 17056.787014 ms best method 7 gflops 0.735141
+------------------------------------------------------------------------
+CSR VEC with padding best time 100000000.000000 ms best method 0 gflops 0.000125
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 17056.787014

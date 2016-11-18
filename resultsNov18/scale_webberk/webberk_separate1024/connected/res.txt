@@ -1,0 +1,15 @@
+
+MatInfo: Width 685230 Height 685230 NNZ 7600595
+Max Offset 640118 Min Offset -629226
+Histogram: <-15: 3094769 -15~-1 765812 < 0-15 786066 > 16 2953948
+Cacheline usage per row: max 190 min 0 avg 6.356838
+
+
+CPU RESULT: The number of components= 62330 iters= 239
+Program File Name: /home/pacman/zf/wubo/apu_corun/connectedComp_seperate/spmv_csr_vector.cl
+---
+>>> Build Log:
+ðÞ
+<<< End of Build Log
+sizeofulong=8 bytes
+Error: clCreateBuffer returned -61 line 222

@@ -1,0 +1,11 @@
+rm -f bfs bfs.linkinfo result*
+g++ -DPROFILING -g -O3  -fopenmp bfs.cpp timer.cc -o bfs -I/opt/AMDAPP/include/  -L/opt/AMDAPP/lib/x86_64/ -lOpenCL -lOpenCL 
+Reading File
+maxedgeno is 6985
+source=39 edgesfromsource=46
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s): 0.240223
+CAUTTION: kernel time(ms): 240.223
+--cambine:passed:-)

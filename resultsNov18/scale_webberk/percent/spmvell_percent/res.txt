@@ -1,0 +1,285 @@
+g++ -w -O3 main.cpp -o spmv -I/opt/AMDAPPSDK-3.0-0-Beta/include -L/opt/AMDAPPSDK-3.0-0-Beta/lib/x86_64 -lOpenCL -D USE_DOUBLE=0 -D USE_SVM_ALWAYS=1
+g++ -w -O3 main_cpu.cpp -o spmv_cpu -I/opt/AMDAPPSDK-3.0-0-Beta/include -L/opt/AMDAPPSDK-3.0-0-Beta/lib/x86_64 -lOpenCL -D USE_DOUBLE=0 -D USE_SVM_ALWAYS=1
+#g++ -O3 main.cpp -o spmv -I/opt/AMDAPPSDK-3.0-0-Beta/include -L/opt/AMDAPPSDK-3.0-0-Beta/lib/x86_64 -lOpenCL -D USE_DOUBLE=0 -D USE_SVM_ALWAYS=1
+#mkdir -p build
+#cp spmv *.cl ./build/
+
+cpuoffset=0
+------------------------------------------------------
+----------../input/webberk/web.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+symmetric = false
+nnzA=7600595, m=685230, csrRowPtrA_counter[m]=7600595
+ ( 685230, 685230 ) nnz = 7600595
+
+cpu sequential time = 15.9359 ms. Bandwidth = 6.06738 GB/s. GFlops = 0.953898 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+maxrl= 249  cmSize= 685230
+
+cpuoffset=10
+------------------------------------------------------
+----------../input/webberk/web.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+symmetric = false
+nnzA=7600595, m=685230, csrRowPtrA_counter[m]=7600595
+ ( 685230, 685230 ) nnz = 7600595
+
+cpu sequential time = 16.0263 ms. Bandwidth = 6.03315 GB/s. GFlops = 0.948516 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+maxrl= 249  cmSize= 685230
+OpenCL Runtime: 0.027870s
+nRows= 685230 nItems= 7600595 GFlops= 0.545440 timeins: 0.027870 timeinms: 27.869589
+CAUTTION: kernel time(ms): 27.869589
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=20
+------------------------------------------------------
+----------../input/webberk/web.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+symmetric = false
+nnzA=7600595, m=685230, csrRowPtrA_counter[m]=7600595
+ ( 685230, 685230 ) nnz = 7600595
+
+cpu sequential time = 15.9544 ms. Bandwidth = 6.06035 GB/s. GFlops = 0.952792 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+maxrl= 249  cmSize= 685230
+OpenCL Runtime: 0.025235s
+nRows= 685230 nItems= 7600595 GFlops= 0.602387 timeins: 0.025235 timeinms: 25.234931
+CAUTTION: kernel time(ms): 25.234931
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=30
+------------------------------------------------------
+----------../input/webberk/web.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+symmetric = false
+nnzA=7600595, m=685230, csrRowPtrA_counter[m]=7600595
+ ( 685230, 685230 ) nnz = 7600595
+
+cpu sequential time = 15.9432 ms. Bandwidth = 6.06458 GB/s. GFlops = 0.953458 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+maxrl= 249  cmSize= 685230
+OpenCL Runtime: 0.023037s
+nRows= 685230 nItems= 7600595 GFlops= 0.659859 timeins: 0.023037 timeinms: 23.037012
+CAUTTION: kernel time(ms): 23.037012
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=40
+------------------------------------------------------
+----------../input/webberk/web.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+symmetric = false
+nnzA=7600595, m=685230, csrRowPtrA_counter[m]=7600595
+ ( 685230, 685230 ) nnz = 7600595
+
+cpu sequential time = 15.9532 ms. Bandwidth = 6.06078 GB/s. GFlops = 0.952859 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+maxrl= 249  cmSize= 685230
+OpenCL Runtime: 0.020277s
+nRows= 685230 nItems= 7600595 GFlops= 0.749676 timeins: 0.020277 timeinms: 20.277009
+CAUTTION: kernel time(ms): 20.277009
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=50
+------------------------------------------------------
+----------../input/webberk/web.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+symmetric = false
+nnzA=7600595, m=685230, csrRowPtrA_counter[m]=7600595
+ ( 685230, 685230 ) nnz = 7600595
+
+cpu sequential time = 15.8821 ms. Bandwidth = 6.08791 GB/s. GFlops = 0.957125 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+maxrl= 249  cmSize= 685230
+OpenCL Runtime: 0.017860s
+nRows= 685230 nItems= 7600595 GFlops= 0.851146 timeins: 0.017860 timeinms: 17.859678
+CAUTTION: kernel time(ms): 17.859678
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=60
+------------------------------------------------------
+----------../input/webberk/web.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+symmetric = false
+nnzA=7600595, m=685230, csrRowPtrA_counter[m]=7600595
+ ( 685230, 685230 ) nnz = 7600595
+
+cpu sequential time = 15.9738 ms. Bandwidth = 6.05297 GB/s. GFlops = 0.951631 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+maxrl= 249  cmSize= 685230
+OpenCL Runtime: 0.015287s
+nRows= 685230 nItems= 7600595 GFlops= 0.994385 timeins: 0.015287 timeinms: 15.287030
+CAUTTION: kernel time(ms): 15.287030
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=70
+------------------------------------------------------
+----------../input/webberk/web.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+symmetric = false
+nnzA=7600595, m=685230, csrRowPtrA_counter[m]=7600595
+ ( 685230, 685230 ) nnz = 7600595
+
+cpu sequential time = 15.8983 ms. Bandwidth = 6.08173 GB/s. GFlops = 0.956154 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+maxrl= 249  cmSize= 685230
+OpenCL Runtime: 0.012315s
+nRows= 685230 nItems= 7600595 GFlops= 1.234410 timeins: 0.012315 timeinms: 12.314541
+CAUTTION: kernel time(ms): 12.314541
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=80
+------------------------------------------------------
+----------../input/webberk/web.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+symmetric = false
+nnzA=7600595, m=685230, csrRowPtrA_counter[m]=7600595
+ ( 685230, 685230 ) nnz = 7600595
+
+cpu sequential time = 15.9805 ms. Bandwidth = 6.05044 GB/s. GFlops = 0.951234 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+maxrl= 249  cmSize= 685230
+OpenCL Runtime: 0.009613s
+nRows= 685230 nItems= 7600595 GFlops= 1.581258 timeins: 0.009613 timeinms: 9.613352
+CAUTTION: kernel time(ms): 9.613352
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=90
+------------------------------------------------------
+----------../input/webberk/web.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+symmetric = false
+nnzA=7600595, m=685230, csrRowPtrA_counter[m]=7600595
+ ( 685230, 685230 ) nnz = 7600595
+
+cpu sequential time = 15.7991 ms. Bandwidth = 6.11992 GB/s. GFlops = 0.962158 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+maxrl= 249  cmSize= 685230
+OpenCL Runtime: 0.009287s
+nRows= 685230 nItems= 7600595 GFlops= 1.636820 timeins: 0.009287 timeinms: 9.287028
+CAUTTION: kernel time(ms): 9.287028
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------
+
+cpuoffset=100
+------------------------------------------------------
+----------../input/webberk/web.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+symmetric = false
+nnzA=7600595, m=685230, csrRowPtrA_counter[m]=7600595
+ ( 685230, 685230 ) nnz = 7600595
+
+cpu sequential time = 15.9415 ms. Bandwidth = 6.06523 GB/s. GFlops = 0.95356 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+maxrl= 249  cmSize= 685230
+OpenCL Runtime: 0.009804s
+nRows= 685230 nItems= 7600595 GFlops= 1.550468 timeins: 0.009804 timeinms: 9.804261
+CAUTTION: kernel time(ms): 9.804261
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------

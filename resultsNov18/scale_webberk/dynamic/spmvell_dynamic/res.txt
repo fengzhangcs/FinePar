@@ -1,0 +1,29 @@
+g++ -w -O3 main.cpp -o spmv -I/opt/AMDAPPSDK-3.0-0-Beta/include -L/opt/AMDAPPSDK-3.0-0-Beta/lib/x86_64 -lOpenCL -lpthread -D USE_DOUBLE=0 -D USE_SVM_ALWAYS=1
+g++ -w -O3 main_cpu.cpp -o spmv_cpu -I/opt/AMDAPPSDK-3.0-0-Beta/include -L/opt/AMDAPPSDK-3.0-0-Beta/lib/x86_64 -lOpenCL -lpthread -D USE_DOUBLE=0 -D USE_SVM_ALWAYS=1
+#g++ -O3 main.cpp -o spmv -I/opt/AMDAPPSDK-3.0-0-Beta/include -L/opt/AMDAPPSDK-3.0-0-Beta/lib/x86_64 -lOpenCL -lpthread -D USE_DOUBLE=0 -D USE_SVM_ALWAYS=1
+#mkdir -p build
+#cp spmv *.cl ./build/
+------------------------------------------------------
+----------../input/webberk/web.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+symmetric = false
+nnzA=7600595, m=685230, csrRowPtrA_counter[m]=7600595
+ ( 685230, 685230 ) nnz = 7600595
+
+cpu sequential time = 15.8841 ms. Bandwidth = 6.08716 GB/s. GFlops = 0.957008 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+maxrl= 249  cmSize= 685230
+OpenCL Runtime: 0.012838s
+nRows= 685230 nItems= 7600595 GFlops= 1.184111 timeins: 0.012838 timeinms: 12.837639
+CAUTTION: kernel time(ms): 12.837639
+
+Checking SpMV Correctness ... PASS!
+------------------------------------------------------

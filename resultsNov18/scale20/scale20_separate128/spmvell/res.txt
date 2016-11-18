@@ -1,0 +1,8 @@
+------------------------------------------------------
+----------/home/pacman/FinePar//input/scale20/matrxtest.txt----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 1048576, 1048576 ) nnz = 31347838
+
+cpu sequential time = 255.49 ms. Bandwidth = 1.50519 GB/s. GFlops = 0.245394 GFlops.
+

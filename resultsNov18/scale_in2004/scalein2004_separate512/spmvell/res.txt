@@ -1,0 +1,8 @@
+------------------------------------------------------
+----------/home/pacman/FinePar//input/in-2004/in-2004.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 1382908, 1382908 ) nnz = 16917053
+
+cpu sequential time = 33.3452 ms. Bandwidth = 6.41975 GB/s. GFlops = 1.01466 GFlops.
+

@@ -1,0 +1,256 @@
+
+MatInfo: Width 5558326 Height 5558326 NNZ 59524291
+Max Offset 5556249 Min Offset -5556249
+Histogram: <-15: 26964310 -15~-1 19608 < 0-15 5576055 > 16 26964318
+Cacheline usage per row: max 80805 min 1 avg 5.324180
+cpu start initialization
+cpu start computing
+number=5   distance=41006.417969
+Program File Name: /home/pacman/zf/wubo/apu_corun/pagerank_seperate_v2/spmv_csr_vector.cl
+---
+>>> Build Log:
+p‘*
+<<< End of Build Log
+sizeofulong=8 bytes
+Row Num 5558326 padded size 5558328
+ simple:totalms: 46228.261948 ioms: 37026.787043 ioms%: 0.800956 bitmapms: 14.887094 bitmapms%: 0.000322 otherms: 9186.587811 otherms%: 0.198722 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182894.187823
+ percent:totalms: 46228.261948 ioms: 37026.787043 ioms%: 80.095564 bitmapms: 14.887094 bitmapms%: 0.032203 otherms: 9186.587811 otherms%: 19.872233 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182894.187823
+distance=41006.429688
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 332490 coo res 28952.595703 res 28952.593750 
+
+Correctness Check: Distance 5.169544e-03 max diff 1.953125e-03 max diff ratio 5.539149e-07 vec size 5558326
+
+CSR vector SLM row ptr groupnum:24 cpu time 227.825403 ms GFLOPS 2.612715 code 7 
+
+ simple:totalms: 49935.646772 ioms: 37026.787043 ioms%: 0.741490 bitmapms: 14.887094 bitmapms%: 0.000298 otherms: 12893.972635 otherms%: 0.258212 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182897.895208
+ percent:totalms: 49935.646772 ioms: 37026.787043 ioms%: 74.149009 bitmapms: 14.887094 bitmapms%: 0.029813 otherms: 12893.972635 otherms%: 25.821179 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182897.895208
+distance=41006.429688
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 332490 coo res 28952.595703 res 28952.593750 
+
+Correctness Check: Distance 5.169544e-03 max diff 1.953125e-03 max diff ratio 5.539149e-07 vec size 5558326
+
+CSR vector SLM row ptr groupnum:48 cpu time 343.587780 ms GFLOPS 1.732433 code 7 
+
+ simple:totalms: 55501.219988 ioms: 37026.787043 ioms%: 0.667135 bitmapms: 14.887094 bitmapms%: 0.000268 otherms: 18459.545851 otherms%: 0.332597 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182903.460781
+ percent:totalms: 55501.219988 ioms: 37026.787043 ioms%: 66.713465 bitmapms: 14.887094 bitmapms%: 0.026823 otherms: 18459.545851 otherms%: 33.259712 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182903.460781
+distance=41006.429688
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 332490 coo res 28952.595703 res 28952.593750 
+
+Correctness Check: Distance 5.169544e-03 max diff 1.953125e-03 max diff ratio 5.539149e-07 vec size 5558326
+
+CSR vector SLM row ptr groupnum:72 cpu time 559.419203 ms GFLOPS 1.064037 code 7 
+
+ simple:totalms: 64525.312901 ioms: 37026.787043 ioms%: 0.573834 bitmapms: 14.887094 bitmapms%: 0.000231 otherms: 27483.638763 otherms%: 0.425936 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182912.484874
+ percent:totalms: 64525.312901 ioms: 37026.787043 ioms%: 57.383351 bitmapms: 14.887094 bitmapms%: 0.023072 otherms: 27483.638763 otherms%: 42.593577 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182912.484874
+distance=41006.429688
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 332490 coo res 28952.595703 res 28952.593750 
+
+Correctness Check: Distance 5.169544e-03 max diff 1.953125e-03 max diff ratio 5.539149e-07 vec size 5558326
+
+CSR vector SLM row ptr groupnum:96 cpu time 615.933800 ms GFLOPS 0.966407 code 7 
+
+ simple:totalms: 74445.723772 ioms: 37026.787043 ioms%: 0.497366 bitmapms: 14.887094 bitmapms%: 0.000200 otherms: 37404.049635 otherms%: 0.502434 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182922.405285
+ percent:totalms: 74445.723772 ioms: 37026.787043 ioms%: 49.736620 bitmapms: 14.887094 bitmapms%: 0.019997 otherms: 37404.049635 otherms%: 50.243382 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182922.405285
+distance=41006.429688
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 332490 coo res 28952.595703 res 28952.593750 
+
+Correctness Check: Distance 5.169544e-03 max diff 1.953125e-03 max diff ratio 5.539149e-07 vec size 5558326
+
+CSR vector SLM row ptr groupnum:120 cpu time 608.797407 ms GFLOPS 0.977736 code 7 
+
+ simple:totalms: 84242.933989 ioms: 37026.787043 ioms%: 0.439524 bitmapms: 14.887094 bitmapms%: 0.000177 otherms: 47201.259851 otherms%: 0.560299 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182932.202495
+ percent:totalms: 84242.933989 ioms: 37026.787043 ioms%: 43.952395 bitmapms: 14.887094 bitmapms%: 0.017672 otherms: 47201.259851 otherms%: 56.029933 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182932.202495
+distance=41006.429688
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 332490 coo res 28952.595703 res 28952.593750 
+
+Correctness Check: Distance 5.169544e-03 max diff 1.953125e-03 max diff ratio 5.539149e-07 vec size 5558326
+
+CSR vector SLM row ptr groupnum:144 cpu time 647.789383 ms GFLOPS 0.918883 code 7 
+
+ simple:totalms: 94675.335884 ioms: 37026.787043 ioms%: 0.391092 bitmapms: 14.887094 bitmapms%: 0.000157 otherms: 57633.661747 otherms%: 0.608751 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182942.634897
+ percent:totalms: 94675.335884 ioms: 37026.787043 ioms%: 39.109222 bitmapms: 14.887094 bitmapms%: 0.015724 otherms: 57633.661747 otherms%: 60.875054 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182942.634897
+distance=41006.429688
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 332490 coo res 28952.595703 res 28952.593750 
+
+Correctness Check: Distance 5.169544e-03 max diff 1.953125e-03 max diff ratio 5.539149e-07 vec size 5558326
+
+CSR vector SLM row ptr groupnum:168 cpu time 686.592627 ms GFLOPS 0.866952 code 7 
+
+ simple:totalms: 105727.012873 ioms: 37026.787043 ioms%: 0.350211 bitmapms: 14.887094 bitmapms%: 0.000141 otherms: 68685.338736 otherms%: 0.649648 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182953.686574
+ percent:totalms: 105727.012873 ioms: 37026.787043 ioms%: 35.021123 bitmapms: 14.887094 bitmapms%: 0.014081 otherms: 68685.338736 otherms%: 64.964796 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182953.686574
+distance=41006.429688
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 332490 coo res 28952.595703 res 28952.593750 
+
+Correctness Check: Distance 5.169544e-03 max diff 1.953125e-03 max diff ratio 5.539149e-07 vec size 5558326
+
+CSR vector SLM row ptr groupnum:192 cpu time 720.931768 ms GFLOPS 0.825658 code 7 
+
+ simple:totalms: 117328.274965 ioms: 37026.787043 ioms%: 0.315583 bitmapms: 14.887094 bitmapms%: 0.000127 otherms: 80286.600828 otherms%: 0.684290 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182965.287836
+ percent:totalms: 117328.274965 ioms: 37026.787043 ioms%: 31.558281 bitmapms: 14.887094 bitmapms%: 0.012688 otherms: 80286.600828 otherms%: 68.429030 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182965.287836
+distance=41006.429688
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 332490 coo res 28952.595703 res 28952.593750 
+
+Correctness Check: Distance 5.169544e-03 max diff 1.953125e-03 max diff ratio 5.539149e-07 vec size 5558326
+
+CSR vector SLM row ptr groupnum:216 cpu time 726.579428 ms GFLOPS 0.819240 code 7 
+
+ simple:totalms: 129023.743868 ioms: 37026.787043 ioms%: 0.286977 bitmapms: 14.887094 bitmapms%: 0.000115 otherms: 91982.069731 otherms%: 0.712908 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182976.983305
+ percent:totalms: 129023.743868 ioms: 37026.787043 ioms%: 28.697654 bitmapms: 14.887094 bitmapms%: 0.011538 otherms: 91982.069731 otherms%: 71.290808 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182976.983305
+distance=41006.429688
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 332490 coo res 28952.595703 res 28952.593750 
+
+Correctness Check: Distance 5.169544e-03 max diff 1.953125e-03 max diff ratio 5.539149e-07 vec size 5558326
+
+CSR vector SLM row ptr groupnum:240 cpu time 732.091427 ms GFLOPS 0.813072 code 7 
+
+ simple:totalms: 140801.696777 ioms: 37026.787043 ioms%: 0.262971 bitmapms: 14.887094 bitmapms%: 0.000106 otherms: 103760.022640 otherms%: 0.736923 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182988.761258
+ percent:totalms: 140801.696777 ioms: 37026.787043 ioms%: 26.297117 bitmapms: 14.887094 bitmapms%: 0.010573 otherms: 103760.022640 otherms%: 73.692310 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479182988.761258
+distance=41006.429688
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 332490 coo res 28952.595703 res 28952.593750 
+
+Correctness Check: Distance 5.169544e-03 max diff 1.953125e-03 max diff ratio 5.539149e-07 vec size 5558326
+
+CSR vector SLM row ptr groupnum:264 cpu time 738.686371 ms GFLOPS 0.805813 code 7 
+
+ simple:totalms: 152688.305855 ioms: 37026.787043 ioms%: 0.242499 bitmapms: 14.887094 bitmapms%: 0.000097 otherms: 115646.631718 otherms%: 0.757403 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479183000.647867
+ percent:totalms: 152688.305855 ioms: 37026.787043 ioms%: 24.249917 bitmapms: 14.887094 bitmapms%: 0.009750 otherms: 115646.631718 otherms%: 75.740333 1479182847.959561 1479182847.959567 1479182884.986354 1479182894.155942 1479182894.170829 1479183000.647867
+distance=41006.429688
+Error i 16 coo res 0.717612 res 0.717612 
+Error i 17 coo res 0.717612 res 0.717612 
+Error i 18 coo res 0.717612 res 0.717612 
+Error i 19 coo res 0.717612 res 0.717612 
+Error i 20 coo res 0.717612 res 0.717612 
+Error i 21 coo res 0.717612 res 0.717612 
+Error i 22 coo res 0.717612 res 0.717612 
+Error i 23 coo res 0.717612 res 0.717612 
+Error i 24 coo res 0.717612 res 0.717612 
+Error i 25 coo res 0.717612 res 0.717612 
+Max diff id 332490 coo res 28952.595703 res 28952.593750 
+
+Correctness Check: Distance 5.169544e-03 max diff 1.953125e-03 max diff ratio 5.539149e-07 vec size 5558326
+
+CSR vector SLM row ptr groupnum:288 cpu time 745.013189 ms GFLOPS 0.798970 code 7 
+
+******* Min time 0.227825 groupnum 24 **********
+
+CPUTIMEinms: 220.111132 GPUTIMEinms: 224.520996 cpuoffset: 128
+
+
+NNZ Before 59524291 After 121314928
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 227.825403 ms best method 7 gflops 2.612715
+------------------------------------------------------------------------
+CSR VEC with padding best time 10000000.000000 ms best method 0 gflops 0.000060
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 227.825403

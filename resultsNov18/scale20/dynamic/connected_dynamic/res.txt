@@ -1,0 +1,134 @@
+rm -f spmv main *.o
+g++  -O3 -g  -w  -c spmv_csr.cpp  -I/opt/AMDAPP/include -L/opt/AMDAPP/lib/x86_64 -lOpenCL -lm  -lpthread
+g++  -O3  -g  -w  -c spmv_util.cpp  -I/opt/AMDAPP/include -L/opt/AMDAPP/lib/x86_64 -lOpenCL -lm 
+g++ -O3  -g -w  spmv_util.o spmv_csr.o -I/opt/AMDAPP/include -L/opt/AMDAPP/lib/x86_64 -lOpenCL -lm -o spmv -lpthread
+rm -f *.o
+
+MatInfo: Width 1048576 Height 1048576 NNZ 31347838
+Max Offset 1048145 Min Offset -1048145
+Histogram: <-15: 15673473 -15~-1 446 < 0-15 446 > 16 15673473
+Cacheline usage per row: max 42504 min 0 avg 29.440332
+
+
+CPU RESULT: The number of components= 527537 iters= 22
+Program File Name: /home/pacman/zf/wubo/apu_corun/connectedComp_dynamic/spmv_csr_vector.cl
+---
+>>> Build Log:
+ ùv
+<<< End of Build Log
+rowsetzf=524288  cpuoffset=50%
+
+
+The number of components= 527537 iters= 22
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1048576
+
+CSR vector SLM row ptr groupnum:24 cpu time 2020.044088 ms GFLOPS 0.682809 code 7 
+
+
+
+The number of components= 527537 iters= 22
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1048576
+
+CSR vector SLM row ptr groupnum:48 cpu time 1554.063082 ms GFLOPS 0.887548 code 7 
+
+
+
+The number of components= 527537 iters= 22
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1048576
+
+CSR vector SLM row ptr groupnum:72 cpu time 1509.711981 ms GFLOPS 0.913621 code 7 
+
+
+
+The number of components= 527537 iters= 22
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1048576
+
+CSR vector SLM row ptr groupnum:96 cpu time 1366.491079 ms GFLOPS 1.009377 code 7 
+
+
+
+The number of components= 527537 iters= 22
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1048576
+
+CSR vector SLM row ptr groupnum:120 cpu time 1465.408802 ms GFLOPS 0.941242 code 7 
+
+
+
+The number of components= 527537 iters= 22
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1048576
+
+CSR vector SLM row ptr groupnum:144 cpu time 1369.458199 ms GFLOPS 1.007190 code 7 
+
+
+
+The number of components= 527537 iters= 22
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1048576
+
+CSR vector SLM row ptr groupnum:168 cpu time 1540.807009 ms GFLOPS 0.895183 code 7 
+
+
+
+The number of components= 527537 iters= 22
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1048576
+
+CSR vector SLM row ptr groupnum:192 cpu time 1347.232819 ms GFLOPS 1.023806 code 7 
+
+
+
+The number of components= 527537 iters= 22
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1048576
+
+CSR vector SLM row ptr groupnum:216 cpu time 1377.561808 ms GFLOPS 1.001265 code 7 
+
+
+
+The number of components= 527537 iters= 22
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1048576
+
+CSR vector SLM row ptr groupnum:240 cpu time 1465.172052 ms GFLOPS 0.941394 code 7 
+
+
+
+The number of components= 527537 iters= 22
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1048576
+
+CSR vector SLM row ptr groupnum:264 cpu time 1419.532061 ms GFLOPS 0.971662 code 7 
+
+
+
+The number of components= 527537 iters= 22
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1048576
+
+CSR vector SLM row ptr groupnum:288 cpu time 1384.118080 ms GFLOPS 0.996523 code 7 
+
+******* Min time 1.347233 groupnum 192 **********
+NNZ Before 31347838 After 38319952
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 1347.232819 ms best method 7 gflops 4.653663
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 1347.232819

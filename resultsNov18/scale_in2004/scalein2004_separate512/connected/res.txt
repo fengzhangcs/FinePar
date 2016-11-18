@@ -1,0 +1,111 @@
+
+MatInfo: Width 1382908 Height 1382908 NNZ 16917053
+Max Offset 1353282 Min Offset -1352413
+Histogram: <-15: 5937222 -15~-1 2150681 < 0-15 2463115 > 16 6366035
+Cacheline usage per row: max 590 min 0 avg 2.826027
+
+
+CPU RESULT: The number of components= 512205 iters= 2328
+Program File Name: /home/pacman/zf/wubo/apu_corun/connectedComp_seperate/spmv_csr_vector.cl
+---
+>>> Build Log:
+€Ã
+<<< End of Build Log
+sizeofulong=8 bytes
+ simple:totalms: 72003.338814 ioms: 4622.746944 ioms%: 0.064202 bitmapms: 2.990961 bitmapms%: 0.000042 otherms: 67377.600908 otherms%: 0.935757 1479297305.344669 1479297305.344674 1479297309.967421 1479297377.344996 1479297377.347987 1479297377.348008
+ percent:totalms: 72003.338814 ioms: 4622.746944 ioms%: 6.420184 bitmapms: 2.990961 bitmapms%: 0.004154 otherms: 67377.600908 otherms%: 93.575662 1479297305.344669 1479297305.344674 1479297309.967421 1479297377.344996 1479297377.347987 1479297377.348008
+The number of components= 512205 iters= 2328
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1382908
+
+CSR vector SLM row ptr groupnum:24 cpu time 57459.298849 ms GFLOPS 1.370810 code 7 
+
+The number of components= 512205 iters= 2328
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1382908
+
+CSR vector SLM row ptr groupnum:48 cpu time 39186.286926 ms GFLOPS 2.010035 code 7 
+
+The number of components= 512205 iters= 2328
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1382908
+
+CSR vector SLM row ptr groupnum:72 cpu time 29878.720999 ms GFLOPS 2.636184 code 7 
+
+The number of components= 512205 iters= 2328
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1382908
+
+CSR vector SLM row ptr groupnum:96 cpu time 27253.366947 ms GFLOPS 2.890131 code 7 
+
+The number of components= 512205 iters= 2328
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1382908
+
+CSR vector SLM row ptr groupnum:120 cpu time 23799.801111 ms GFLOPS 3.309515 code 7 
+
+The number of components= 512205 iters= 2328
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1382908
+
+CSR vector SLM row ptr groupnum:144 cpu time 23466.027021 ms GFLOPS 3.356589 code 7 
+
+The number of components= 512205 iters= 2328
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1382908
+
+CSR vector SLM row ptr groupnum:168 cpu time 22272.499084 ms GFLOPS 3.536460 code 7 
+
+The number of components= 512205 iters= 2328
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1382908
+
+CSR vector SLM row ptr groupnum:192 cpu time 21181.447029 ms GFLOPS 3.718622 code 7 
+
+The number of components= 512205 iters= 2328
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1382908
+
+CSR vector SLM row ptr groupnum:216 cpu time 20591.270924 ms GFLOPS 3.825203 code 7 
+
+The number of components= 512205 iters= 2328
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1382908
+
+CSR vector SLM row ptr groupnum:240 cpu time 21515.470982 ms GFLOPS 3.660891 code 7 
+
+The number of components= 512205 iters= 2328
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1382908
+
+CSR vector SLM row ptr groupnum:264 cpu time 22526.508093 ms GFLOPS 3.496583 code 7 
+
+The number of components= 512205 iters= 2328
+Max diff id 0 coo res 0 res 0 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 1382908
+
+CSR vector SLM row ptr groupnum:288 cpu time 21535.525084 ms GFLOPS 3.657482 code 7 
+
+******* Min time 20.591271 groupnum 216 **********
+
+CPUTIMEinms: 827.779422 GPUTIMEinms: 12068.938020 cpuoffset: 512
+
+
+NNZ Before 16917053 After 27631408
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 20591.270924 ms best method 7 gflops 0.164313
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 20591.270924

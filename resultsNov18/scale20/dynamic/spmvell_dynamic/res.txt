@@ -1,0 +1,15 @@
+g++ -w -O3 main.cpp -o spmv -I/opt/AMDAPPSDK-3.0-0-Beta/include -L/opt/AMDAPPSDK-3.0-0-Beta/lib/x86_64 -lOpenCL -lpthread -D USE_DOUBLE=0 -D USE_SVM_ALWAYS=1
+g++ -w -O3 main_cpu.cpp -o spmv_cpu -I/opt/AMDAPPSDK-3.0-0-Beta/include -L/opt/AMDAPPSDK-3.0-0-Beta/lib/x86_64 -lOpenCL -lpthread -D USE_DOUBLE=0 -D USE_SVM_ALWAYS=1
+#g++ -O3 main.cpp -o spmv -I/opt/AMDAPPSDK-3.0-0-Beta/include -L/opt/AMDAPPSDK-3.0-0-Beta/lib/x86_64 -lOpenCL -lpthread -D USE_DOUBLE=0 -D USE_SVM_ALWAYS=1
+#mkdir -p build
+#cp spmv *.cl ./build/
+------------------------------------------------------
+----------../input/scale20/matrxtest.txt----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+symmetric = false
+nnzA=31347838, m=1048576, csrRowPtrA_counter[m]=31347838
+ ( 1048576, 1048576 ) nnz = 31347838
+
+cpu sequential time = 264.626 ms. Bandwidth = 1.45323 GB/s. GFlops = 0.236921 GFlops.
+

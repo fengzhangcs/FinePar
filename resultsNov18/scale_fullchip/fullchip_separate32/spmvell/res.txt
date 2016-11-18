@@ -1,0 +1,8 @@
+------------------------------------------------------
+----------/home/pacman/FinePar//input/FullChip/FullChip.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 2987012, 2987012 ) nnz = 26621990
+
+cpu sequential time = 71.1217 ms. Bandwidth = 4.82778 GB/s. GFlops = 0.748632 GFlops.
+

@@ -1,0 +1,15 @@
+g++ -w -O3 main.cpp -o spmv -I/opt/AMDAPPSDK-3.0-0-Beta/include -L/opt/AMDAPPSDK-3.0-0-Beta/lib/x86_64 -lOpenCL -lpthread -D USE_DOUBLE=0 -D USE_SVM_ALWAYS=1
+g++ -w -O3 main_cpu.cpp -o spmv_cpu -I/opt/AMDAPPSDK-3.0-0-Beta/include -L/opt/AMDAPPSDK-3.0-0-Beta/lib/x86_64 -lOpenCL -lpthread -D USE_DOUBLE=0 -D USE_SVM_ALWAYS=1
+#g++ -O3 main.cpp -o spmv -I/opt/AMDAPPSDK-3.0-0-Beta/include -L/opt/AMDAPPSDK-3.0-0-Beta/lib/x86_64 -lOpenCL -lpthread -D USE_DOUBLE=0 -D USE_SVM_ALWAYS=1
+#mkdir -p build
+#cp spmv *.cl ./build/
+------------------------------------------------------
+----------../input/circuit5M/circuit5M.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+symmetric = false
+nnzA=59524291, m=5558326, csrRowPtrA_counter[m]=59524291
+ ( 5558326, 5558326 ) nnz = 59524291
+
+cpu sequential time = 84.7339 ms. Bandwidth = 8.9546 GB/s. GFlops = 1.40497 GFlops.
+

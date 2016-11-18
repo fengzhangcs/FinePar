@@ -1,0 +1,101 @@
+rm -f bfs bfs.linkinfo result*
+g++ -DPROFILING -g -O3  -fopenmp bfs.cpp timer.cc -o bfs -I/opt/AMDAPP/include/  -L/opt/AMDAPP/lib/x86_64/ -lOpenCL -lOpenCL 
+Reading File
+maxedgeno is 1290501
+source=0 edgesfromsource=2
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s): 0.57468
+CAUTTION: kernel time(ms): 574.68
+--cambine:passed:-)
+Reading File
+maxedgeno is 1290501
+source=0 edgesfromsource=2
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s): 3.07305
+CAUTTION: kernel time(ms): 3073.05
+--cambine:passed:-)
+Reading File
+maxedgeno is 1290501
+source=0 edgesfromsource=2
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s): 3.03449
+CAUTTION: kernel time(ms): 3034.49
+--cambine:passed:-)
+Reading File
+maxedgeno is 1290501
+source=0 edgesfromsource=2
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s): 3.01176
+CAUTTION: kernel time(ms): 3011.76
+--cambine:passed:-)
+Reading File
+maxedgeno is 1290501
+source=0 edgesfromsource=2
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s): 2.98157
+CAUTTION: kernel time(ms): 2981.57
+--cambine:passed:-)
+Reading File
+maxedgeno is 1290501
+source=0 edgesfromsource=2
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s): 2.95278
+CAUTTION: kernel time(ms): 2952.78
+--cambine:passed:-)
+Reading File
+maxedgeno is 1290501
+source=0 edgesfromsource=2
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s): 2.92139
+CAUTTION: kernel time(ms): 2921.39
+--cambine:passed:-)
+Reading File
+maxedgeno is 1290501
+source=0 edgesfromsource=2
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s): 2.88076
+CAUTTION: kernel time(ms): 2880.76
+--cambine:passed:-)
+Reading File
+maxedgeno is 1290501
+source=0 edgesfromsource=2
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s): 2.83597
+CAUTTION: kernel time(ms): 2835.97
+--cambine:passed:-)
+Reading File
+maxedgeno is 1290501
+source=0 edgesfromsource=2
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s): 2.80394
+CAUTTION: kernel time(ms): 2803.94
+--cambine:passed:-)
+Reading File
+maxedgeno is 1290501
+source=0 edgesfromsource=2
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+kernel time(s): 2.80061
+CAUTTION: kernel time(ms): 2800.61
+--cambine:passed:-)

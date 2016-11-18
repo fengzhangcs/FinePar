@@ -1,0 +1,18 @@
+Reading File
+maxedgeno is 66546
+source=0
+deviceListSize :2 
+devices0: Spectre
+devices1: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+sizeofulong=8 bytes
+
+starting:
+ simple:totalms: 5913.019180 ioms: 5322.810173 ioms%: 0.900185 bitmapms: 2.804041 bitmapms%: 0.000474 otherms: 587.404966 otherms%: 0.099341 1479032631.901182 1479032631.901182 1479032637.223992 1479032637.625040 1479032637.627844 1479032637.814201
+ percent:totalms: 5913.019180 ioms: 5322.810173 ioms%: 90.018483 bitmapms: 2.804041 bitmapms%: 0.047421 otherms: 587.404966 otherms%: 9.934095 1479032631.901182 1479032631.901182 1479032637.223992 1479032637.625040 1479032637.627844 1479032637.814201
+kernel time(s):0.356387
+CAUTTION: kernel time(ms): 356.387
+
+
+CPUTIMEinms: 129.614645 GPUTIMEinms: 17.837852 cpuoffset: 32
+
+--cambine:passed:-)

@@ -1,0 +1,16 @@
+------------------------------------------------------
+----------/home/pacman/FinePar//input/webberk/web.mtx----------
+PRECISION = 32-bit Single Precision
+RUN SpMV 200 times
+ ( 685230, 685230 ) nnz = 7600595
+
+cpu sequential time = 15.7374 ms. Bandwidth = 6.14391 GB/s. GFlops = 0.965929 GFlops.
+
+number of platforms is 1
+platform name is AMD Accelerated Parallel Processing
+platform version is OpenCL 2.0 AMD-APP (1642.5)
+number of GPU is 1
+number of CPU is 1
+GPU device name is Spectre
+CPU device name is AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+Sorry, do not need CPU

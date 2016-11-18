@@ -1,0 +1,47 @@
+I made it symmetric zf zhangfeng
+
+MatInfo: Width 685230 Height 685230 NNZ 15201190
+Max Offset 640118 Min Offset -640118
+Histogram: <-15: 6048717 -15~-1 1551878 < 0-15 1551878 > 16 6048717
+Cacheline usage per row: max 7310 min 1 avg 7.818483
+vertexcnt=685230
+cpu color=300
+Program File Name: /home/pacman/zf/wubo/apu_corun/graphcoloring_seperate/spmv_csr_vector.cl
+---
+>>> Build Log:
+ ǋ
+<<< End of Build Log
+sizeofulong=8 bytesrowsetzf=14033510
+ simple:totalms: 4894.266129 ioms: 2879.479170 ioms%: 0.588337 bitmapms: 3.610134 bitmapms%: 0.000738 otherms: 2011.176825 otherms%: 0.410925 1479306018.273820 1479306018.273825 1479306021.153304 1479306023.164449 1479306023.168059 1479306023.168086
+ percent:totalms: 4894.266129 ioms: 2879.479170 ioms%: 58.833727 bitmapms: 3.610134 bitmapms%: 0.073763 otherms: 2011.176825 otherms%: 41.092511 1479306018.273820 1479306018.273825 1479306021.153304 1479306023.164449 1479306023.168059 1479306023.168086
+Max diff id 0 coo res 30 res 30 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 685230
+
+CSR vector SLM row ptr groupnum:240 cpu time 761.184931 ms GFLOPS 11.982258 code 7 
+
+Max diff id 0 coo res 30 res 30 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 685230
+
+CSR vector SLM row ptr groupnum:264 cpu time 752.485991 ms GFLOPS 12.120776 code 7 
+
+Max diff id 0 coo res 30 res 30 
+
+Correctness Check: Distance N max diff 0.000000e+00 max diff ratio 0.000000e+00 vec size 685230
+
+CSR vector SLM row ptr groupnum:288 cpu time 773.776054 ms GFLOPS 11.787279 code 7 
+
+******* Min time 0.752486 groupnum 264 **********
+
+CPUTIMEinms: 88.602631 GPUTIMEinms: 593.335890 cpuoffset: 2048
+
+
+NNZ Before 15201190 After 21262848
+
+------------------------------------------------------------------------
+CSR VEC without padding best time 752.485991 ms best method 7 gflops 4.040259
+------------------------------------------------------------------------
+CSR VEC with padding best time 100000000.000000 ms best method 0 gflops 0.000030
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 752.485991

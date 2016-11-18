@@ -1,0 +1,30 @@
+rm -f spmv main *.o
+g++  -O3 -g  -w  -c spmv_csr.cpp  -I/opt/AMDAPP/include -L/opt/AMDAPP/lib/x86_64 -lOpenCL -lm -lpthread
+g++  -O3  -g  -w  -c spmv_util.cpp  -I/opt/AMDAPP/include -L/opt/AMDAPP/lib/x86_64 -lOpenCL -lm 
+g++ -O3  -g -w  spmv_util.o spmv_csr.o -I/opt/AMDAPP/include -L/opt/AMDAPP/lib/x86_64 -lOpenCL -lm -o spmv -lpthread
+rm -f *.o
+I made it symmetric zf zhangfeng
+
+MatInfo: Width 1048576 Height 1048576 NNZ 62695676
+Max Offset 1048145 Min Offset -1048145
+Histogram: <-15: 31346946 -15~-1 892 < 0-15 892 > 16 31346946
+Cacheline usage per row: max 42504 min 0 avg 29.440332
+vertexcnt=1048576
+cpu color=1656
+Program File Name: /home/pacman/zf/wubo/apu_corun/graphcoloring_dynamic/spmv_csr_vector.cl
+---
+>>> Build Log:
+À/
+<<< End of Build Log
+rowsetzf=524288
+start count time:
+
+CSR vector SLM row ptr groupnum:240 cpu time 26708.773136 ms GFLOPS 7.774527 code 7 
+
+******* Min time 26.708773 groupnum 240 **********
+------------------------------------------------------------------------
+CSR VEC without padding best time 26708.773136 ms best method 7 gflops 0.469476
+------------------------------------------------------------------------
+CSR VEC with padding best time 100000000.000000 ms best method 0 gflops 0.000125
+------------------------------------------------------------------------
+CAUTTION: kernel time(ms): 26708.773136
