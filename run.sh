@@ -1,6 +1,7 @@
+PROGRAMDIR="/home/pacman/FinePar/"
+
 rm -rf results
 cp -r oriRes/ results
-PROGRAMDIR="/home/pacman/FinePar/"
 for i in scale20 scale_circuit5M scale_eu2005 scale_fullchip scale_in2004 scale_webberk
 do
   cd ${PROGRAMDIR}/results/$i/
