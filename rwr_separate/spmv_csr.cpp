@@ -655,7 +655,8 @@ int main(int argc, char* argv[])
     char clfilename[1000];
     
    {
-	sprintf(clfilename, "%s%s", "/home/pacman/zf/wubo/apu_corun/rwr_seperate", "/spmv_csr_vector.cl");
+	sprintf(clfilename, "%s%s", ".", "/spmv_csr_vector.cl");
+	//sprintf(clfilename, "%s%s", "/home/pacman/zf/wubo/apu_corun/rwr_seperate", "/spmv_csr_vector.cl");
     printMatInfo(&mat);
 
 

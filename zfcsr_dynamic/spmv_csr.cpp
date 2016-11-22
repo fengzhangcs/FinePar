@@ -554,7 +554,8 @@ cpuoffset=0;
     char clfilename[1000];
     
    {
-	sprintf(clfilename, "%s%s", "/home/pacman/zf/wubo/apu_corun/zfcsr_dynamic", "/spmv_csr_vector.cl");
+	sprintf(clfilename, "%s%s", ".", "/spmv_csr_vector.cl");
+	//sprintf(clfilename, "%s%s", "/home/pacman/zf/wubo/apu_corun/zfcsr_dynamic", "/spmv_csr_vector.cl");
     printMatInfo(&mat);
     csr_matrix<int, float> csrmat;
     coo2csr<int, float>(&mat, &csrmat);
