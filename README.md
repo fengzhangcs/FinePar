@@ -18,6 +18,7 @@ Currently, FinePar is only tested on the following platform, but it is expected 
 5. If you wants to try single application, please go into its directory and run related bash file.
 6. If you want to read the results, execute "cd ${PROGRAMDIR}/results; bash show.sh" after Step 4 (bash run.sh).
 7. We put a former rseult in the directory "results2016Nov18". You can step into that derectory to see the results with "bash show.sh". New results should look similar.
+8. The source to source transform engine is under "codeTransEngine", which is based on Clang. This is a good example to Clang LibTooling developers.
 
 ##Publication##
 If you use our work, please cite our paper:
