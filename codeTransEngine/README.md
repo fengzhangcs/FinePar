@@ -1,4 +1,4 @@
-This is an prototype of FinePar source to source transformation.
+This is a prototype of FinePar source to source transformation.
 This is useful to Clang libtooling developers.
 
 fineParP2S is to transform c++ code.
