@@ -20,6 +20,8 @@ Currently, FinePar is only tested on the following platform, but it is expected 
 7. We put a former rseult in the directory "results2016Nov18". You can step into that derectory to see the results with "bash show.sh". New results should look similar.
 8. The source to source transform engine is under "codeTransEngine", which is based on Clang. This is a good example to Clang LibTooling developers.
 
+The input tar file is in the google drive now: https://drive.google.com/file/d/0B0LKXOI68JYNVHFlcFpVbU1iWTA/view?usp=sharing
+
 ##Publication##
 If you use our work, please cite our paper:
 
