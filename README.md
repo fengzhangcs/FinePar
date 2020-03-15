@@ -25,7 +25,7 @@ The input tar file is in the google drive now: https://drive.google.com/file/d/0
 ##Publication##
 If you use our work, please cite our paper:
 
-Feng Zhang, Bo Wu, Jidong Zhai, Bingsheng He, Wenguang Chen.FinePar: Irregularity-Aware Fine-Grained Workload Partitioning on Integrated Architectures
+Feng Zhang, Bo Wu, Jidong Zhai, Bingsheng He, Wenguang Chen. FinePar: Irregularity-Aware Fine-Grained Workload Partitioning on Integrated Architectures
 [CGO2017 URL](http://cgo.org/cgo2017/)
 
       @inproceedings{zhangFinePar,
@@ -34,6 +34,16 @@ Feng Zhang, Bo Wu, Jidong Zhai, Bingsheng He, Wenguang Chen.FinePar: Irregularit
        booktitle={Proceedings of the 2017 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)},
        year={2017}
       }
+
+Feng Zhang, Bo Wu, Jidong Zhai, Bingsheng He, Wenguang Chen, Xiaoyong Du. Automatic Irregularity-Aware Fine-Grained Workload Partitioning on Integrated Architectures, TKDE.
+
+      @article{zhang2019automatic,
+       title={Automatic Irregularity-Aware Fine-Grained Workload Partitioning on Integrated Architectures},
+       author={Zhang, Feng and Zhai, Jidong and Wu, Bo and He, Bingsheng and Chen, Wenguang and Du, Xiaoyong},
+        journal={IEEE Transactions on Knowledge and Data Engineering},
+        year={2019},
+        publisher={IEEE}
+      }    
 
 
 ##Acknowledgement##
